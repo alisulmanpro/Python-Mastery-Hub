@@ -354,7 +354,7 @@ print("Sum:", add_numbers(num1, num2))
 14. Write a function to convert Celsius to Fahrenheit (take value from user).
 15. Write a function to check if a given year is a leap year (take value from user).
 
-## Lambda Functions | Python
+## Lambda Functions
 
 A **lambda function** in Python is a small anonymous function defined using the `lambda` keyword. It can have any number of arguments but only **one expression**, which is returned automatically.
 
