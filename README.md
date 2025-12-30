@@ -2,18 +2,18 @@
 
 ## Programming Fundamentals(PF)
 
-1. [[variables]][variables]
-2. [[datatypes]][datatypes]
-3. [[operators]][operators]
-4. [[decisionmaking]][decisionmaking]
-5. [[loops]][loops]
-6. [[Strings]][strings]
-7. [[lists]][lists]
-8. [[Ttples]][Ttples]
-9. [[sets]][sets]
-10. [[dictionary]][dictionary]
-11. [[functions]][functions]
-12. [[lambdafunctions]][lambdafunctions]
+1. [variables]
+2. [datatypes]
+3. [operators]
+4. [decisionmaking]
+5. [loops]
+6. [Strings]
+7. [lists]
+8. [Ttples]
+9. [sets]
+10. [dictionary]
+11. [functions]
+12. [lambdafunctions]
 
 [variables]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#variable "Variables"
 [datatypes]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#data-types "DataTypes"
