@@ -22,7 +22,7 @@
 [loops]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#loops "Loops"
 [strings]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#strings "Strings"
 [lists]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#lists "Lists"
-[Ttples]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#tuples "Tuples"
+[tuples]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#tuples "Tuples"
 [sets]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#sets "Sets"
 [dictionary]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#dictionary "Dictionary"
 [functions]:  https://github.com/alisulmanpro/Python-Mastery-Hub/blob/main/learn-python/pf.md#functions "Functions"
