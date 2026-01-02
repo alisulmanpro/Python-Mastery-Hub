@@ -1,4 +1,4 @@
-#Programming Fundamentals
+# Programming Fundamentals
 ## Variable
 
 A **variable** in Python is a name used to store data in memory, and its value can change during program execution.
@@ -11,7 +11,7 @@ name = "Ali"
 print(x, name)
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=xLk3rYdHX-vc))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=xLk3rYdHX-vc)
 
 1. Write a program to store your name in a variable and print it.
 2. Write a program to store your age in a variable and display it.
@@ -45,7 +45,7 @@ is_student = bool(input("Enter status: "))
 print(age, price, name, is_student)
 ```
 
-## Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=B0ky7wdSSL-c))
+## Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=B0ky7wdSSL-c)
 
 1. Write a program to take an integer input and print its type.
 2. Write a program to take a float input and display it.
@@ -78,7 +78,7 @@ result = a + b
 print(result)
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=dbdkw46xY45E))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=dbdkw46xY45E)
 
 1. Write a program to add two numbers.
 2. Write a program to subtract one number from another.
@@ -112,7 +112,7 @@ else:
     print("Fail")
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=nyhX1jcNcbVR))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=nyhX1jcNcbVR)
 
 1. Write a program to check if a number is positive, negative, or zero.
 2. Write a program to check if a student has passed or failed (pass >= 40).
@@ -141,7 +141,7 @@ for i in range(1, 6):
     print(i)
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=BywFObNzjCfm))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=BywFObNzjCfm))
 
 1. Write a program to print numbers from 1 to 10.
 2. Write a program to print even numbers between 1 and 20.
@@ -178,7 +178,7 @@ print("Hello " + name)
 print("First character:", name[0])
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=zhi2ewjZWZXT))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=zhi2ewjZWZXT))
 
 1. Write a program to take a string and print it.
 2. Write a program to find the length of a string.
@@ -209,7 +209,7 @@ numbers.append(int(input("Add another number: ")))
 print("Updated List:", numbers)
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=thxEhvZjiS8m))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=thxEhvZjiS8m))
 
 1. Write a program to create a list of 5 numbers and print it.
 2. Write a program to find the length of a list.
@@ -239,7 +239,7 @@ print("Tuple:", my_tuple)
 print("First item:", my_tuple[0])
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=W9ao_BO0nmna))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=W9ao_BO0nmna))
 
 1. Write a program to create a tuple of 4 items and print it.
 2. Write a program to find the length of a tuple.
@@ -270,7 +270,7 @@ my_set.add(int(input("Add another number: ")))
 print("Updated Set:", my_set)
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=QFtZ-p159iCv))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=QFtZ-p159iCv))
 
 1. Write a program to create a set of 4 numbers and print it.
 2. Write a program to add a new element to a set (take value from user).
@@ -303,7 +303,7 @@ print("Student Dictionary:", student)
 print("Name:", student["name"])
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=p3R-XiZyBqqx))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=p3R-XiZyBqqx))
 
 1. Write a program to create a dictionary with 3 key-value pairs and print it.
 2. Write a program to add a new key-value pair to a dictionary (take value from user).
@@ -337,7 +337,7 @@ num2 = int(input("Enter second number: "))
 print("Sum:", add_numbers(num1, num2))
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=v0LVqEcvHctU))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=v0LVqEcvHctU))
 
 1. Write a function to print “Hello, World!”.
 2. Write a function to take a number as input and print it.
@@ -367,7 +367,7 @@ num = int(input("Enter a number: "))
 print("Square:", square(num))
 ```
 
-### Practice Questions | [Solution]([https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=n9-_Y41iLXO3))
+### Practice Questions | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl#scrollTo=n9-_Y41iLXO3))
 
 1. Write a lambda function to add two numbers.
 2. Write a lambda function to multiply two numbers (take values from user).
