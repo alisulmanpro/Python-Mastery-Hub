@@ -1,5 +1,4 @@
-# Learn Python
-
+# Learn Python | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing)
 ## Programming Fundamentals(PF)
 
 1. [variables]
