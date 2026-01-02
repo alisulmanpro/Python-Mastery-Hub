@@ -1,5 +1,5 @@
 # Learn Python | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing)
-## Programming Fundamentals(PF)
+## Programming Fundamentals(PF) | [Solution](https://colab.research.google.com/drive/1KxN7_Qo3CeYPKD9F0gsAuDrJXlB5PUMl?usp=sharing#scrollTo=gXahlDzCXzET)
 
 1. [variables]
 2. [datatypes]
