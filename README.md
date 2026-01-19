@@ -2,41 +2,31 @@
 
 ## 01 – Practice Questions Set
 
-Q1. Write a program where `a = 5` and `b = 7`, and print the values of `a` and `b` on separate lines.
+Q1. Write a program where `a = 10` and `b = 20`, swap their values **without using a third variable**, and print the result.
 
-Q2. Write a program where `a = 10` and `b = 20`, swap their values **without using a third variable**, and print the result.
+Q2. Write a program where `city1 = "Lahore"` and `city2 = "Karachi"`, swap their values, and print both variables.
 
-Q3. Write a program where `city1 = "Lahore"` and `city2 = "Karachi"`, swap their values, and print both variables.
+Q3. Write a program that takes **two numbers from the user** and prints their **sum**.
 
-Q4. Write a program that takes **two numbers from the user** and prints their **sum**.
+Q4. Write a program that takes the user’s **name** from user and prints:  `Hello <name>`
 
-Q5. Write a program that takes **two numbers from the user** and prints their **sum** and their **multiplication**.
-
-Q6. Write a program that takes the user’s **name** from user and prints:  `Hello <name>`
-
-Q7. Write a program that takes the user’s **age** as input and prints: `Your age is <age>`
+---
 
 ## 02 – Practice Questions Set
 
 Q1. Write a program where `first_name = "Ali"` and `last_name = "Khan"`, and print the full name using string concatenation.
 
-Q2. Write a program where `city = "Lahore"` and `country = "Pakistan"`, and print the output in this format:   `Lahore, Pakistan`
+Q2. Write a program that takes the user’s `first name` and `last name` from user and prints them together as a full name.
 
-Q3. Write a program that takes the user’s **first name** and **last name** from user and prints them together as a full name.
+Q3. Write a program where `language = "Python"` and print the sentence:  `I am learning Python`
 
-Q4. Write a program where `language = "Python"` and print the sentence:  `I am learning Python`
+Q4. Write a program that takes the user’s `name` and `age` from user and prints:   `My name is <name> and I am <age> years old`
 
-Q5. Write a program that takes the user’s **name** and **age** from user and prints:   `My name is <name> and I am <age> years old`
+Q5. Write a program that takes the user’s `name` and uses **f-string** to print:  `Hello <name>, welcome to Python`
 
-Q6. Write a program where `a = "10"` and `b = "20"`, concatenate them and print the result.
+Q6. Write a program where you concatenate **three strings** to form one meaningful sentence and print it.
 
-Q7. Write a program that uses **comma-separated print** to display:   `Welcome to Python Programming`
-
-Q8. Write a program that uses **f-string** to print:  `Hello <name>, welcome to Python`
-
-Q9. Write a program that joins the strings `"AI"` and `"Lab"` with a space in between and prints the result.
-
-Q10. Write a program where you concatenate **three strings** to form one meaningful sentence and print it.
+---
 
 ## 03 – Practice Questions Set (if / elif / else)
 
@@ -63,49 +53,33 @@ Q7. Write a program that takes the user’s **percentage** and prints:
 - `C Grade` if percentage is between 40 and 59  
 - `Fail` otherwise
 
-Q8. Write a program that asks the user for their **favorite color** and prints a custom message for each color.  
-Example:  
-- If red → `Red is the color of energy!`  
-- If blue → `Blue is so calm and peaceful!`  
-- Else → `That’s an interesting choice!`
-
-Q9. Write a program that asks the user **what they want to drink** (`tea`, `coffee`, or `water`) and prints a response:  
-- Tea → `Here’s your tea!`  
-- Coffee → `Coffee coming right up!`  
-- Water → `Fresh water for you!`  
-- Anything else → `Sorry, we don’t have that!`
-
-Q10. Write a program that asks the user for the **day of the week** and prints:  
+Q8. Write a program that asks the user for the **day of the week** and prints:  
 - Monday → `Start of the week!`  
 - Friday → `Weekend is near!`  
 - Saturday / Sunday → `Enjoy your weekend!`  
 - Any other day → `Keep going!`
 
-Q11. Create a calculator.
+Q9. Create a calculator.
 
 ---
 
 ## 04 – Practice Questions Set (Loops: while & for)
 
-Q1. Write a program using a **while loop** to print numbers from 1 to 10.
+Q1. Write a program using a `while loop` to print numbers from 1 to 10.
 
-Q2. Write a program using a **for loop** to print numbers from 1 to 10.
+Q2. Write a program using a `for loop` to print numbers from 1 to 10.
 
 Q3. Write a program using a loop to print **even numbers from 1 to 20**.
 
 Q4. Write a program using a loop to print the **table of 5** e.g. `5 x 1 = 5`.
 
-Q5. Write a program that takes a number from the user and prints its **table** using a loop.
+Q5. Write a program using a loop to print the **sum of numbers from 1 to 10**.
 
-Q6. Write a program using a loop to print the **sum of numbers from 1 to 10**.
+Q6. Write a program that takes a number from the user and prints numbers from **1 to that number**.
 
-Q7. Write a program that takes a number from the user and prints numbers from **1 to that number**.
+Q7. Write a program that prints numbers from **10 to 1** using a loop.
 
-Q8. Write a program using a loop to print the word **"Python"** five times.
-
-Q9. Write a program that prints numbers from **10 to 1** using a loop.
-
-Q10. Write a program to print given blow outputs using a loop:
+Q9. Write a program to print given blow outputs using a loop:
 ``` cmd
 1)                2)                3)              4)                  05)
 *                 * * * * *             *           1                   * * * * *
@@ -114,6 +88,7 @@ Q10. Write a program to print given blow outputs using a loop:
 * * * *           * *                * * * *        1 2 3 4             *       *
 * * * * *         *                 * * * * *       1 2 3 4 5           * * * * *
 ```
+---
 
 ## 05 – Practice Questions Set (List & Tuple)
 
@@ -134,6 +109,8 @@ Q7. Create a list of **your 5 favorite movies**. Replace the **second movie** wi
 Q8. Write a program to **combine two lists**: `fruits = ['apple', 'banana']` and `vegetables = ['carrot', 'spinach']` and print the combined list.
 
 Q9. Write a program to **count how many times an item appears** in a list. Example: `colors = ['red','blue','red','green','red']`
+
+---
 
 ## 06 – Practice Questions Set (Set & Dictionary)
 
@@ -156,6 +133,8 @@ Q8. Write a program to **find unique words** in a sentence entered by the user u
 Q9. Create a dictionary with **subject names as keys** and **marks as values**. Print all subjects where marks are above 50.
 
 Q10. Write a program to **count how many times each word appears** in a sentence using a dictionary.
+
+---
 
 ## 07 – Practice Questions Set (Functions)
 
@@ -189,6 +168,8 @@ Q11. Write a function named `calculate_discount(price)` that:
 Q12. Write a function named `login_message(username)` that:
 - Takes a username as a parameter
 - Prints a welcome message for that user
+
+---
 
 ## PF (Programming Fundamentals) Mega Practice Tasks
 
@@ -266,3 +247,116 @@ Q20. Create a function named `generate_bill()` that:
 - Prints all items with prices
 - Prints total bill
 - Prints payment confirmation message
+
+# PF prjects
+
+1. Simple Calculator
+**Concepts:** Variables, input/output, operators
+**Description:**
+Create a console-based calculator that performs addition, subtraction, multiplication, and division based on user choice.
+**Skills Practiced:**
+- `input()` / `print()`
+- Arithmetic operators
+- Basic control flow
+
+---
+
+2. Number Guessing Game
+**Concepts:** Conditional statements, loops
+**Description:**
+The program generates a random number, and the user guesses until correct. Provide hints (higher/lower).
+**Skills Practiced:**
+- `if / elif / else`
+- `while` loop
+- `random` module
+
+---
+
+3. Student Grade System
+**Concepts:** Conditions, logical operators
+**Description:**
+Take marks as input and calculate grade (A, B, C, Fail) based on predefined rules.
+**Skills Practiced:**
+- Conditional logic
+- Comparison operators
+- Input validation
+
+---
+
+4. Multiplication Table Generator
+**Concepts:** Loops
+**Description:**
+Generate a multiplication table for a given number up to a specified range.
+**Skills Practiced:**
+- `for` loop
+- Formatting output
+- Iteration logic
+
+---
+
+5. To-Do List (Console Based)
+**Concepts:** Lists, loops
+**Description:**
+Allow users to add, view, and remove tasks from a to-do list using a menu-driven program.
+**Skills Practiced:**
+- Lists
+- Menu-based programs
+- Loop control
+
+---
+
+6. Password Validator
+**Concepts:** Strings, conditions
+**Description:**
+Check whether a password meets criteria (length, digits, uppercase, special character).
+**Skills Practiced:**
+- String methods
+- Logical conditions
+- Validation rules
+
+---
+
+7. ATM Simulation System
+**Concepts:** Functions, conditionals
+**Description:**
+Simulate ATM operations: check balance, deposit, withdraw, and exit.
+**Skills Practiced:**
+- Functions
+- State management
+- Conditional branching
+
+---
+
+8. Contact Management System
+**Concepts:** Dictionary, functions
+**Description:**
+Store contacts with name and phone number. Support add, search, update, and delete operations.
+**Skills Practiced:**
+- Dictionaries
+- CRUD operations
+- Function modularity
+
+---
+
+9. Quiz Application
+
+**Concepts:** Lists, dictionaries, loops
+**Description:**
+Create a quiz with multiple questions, track score, and show final results.
+**Skills Practiced:**
+- Nested data structures
+- Looping over data
+- Scoring logic
+
+---
+
+10. Mini Banking System
+**Concepts:** Functions, data structures, logic flow
+**Description:**
+Develop a small banking system with user accounts, login, balance tracking, and transaction history.
+**Skills Practiced:**
+- Functions + dictionaries
+- Program flow control
+- Real-world problem modeling
+
+---
