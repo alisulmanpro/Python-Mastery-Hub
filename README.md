@@ -250,7 +250,7 @@ Q20. Create a function named `generate_bill()` that:
 
 # **PF Projects**
 
-1. Simple Calculator
+### 1. Simple Calculator
 **Concepts:** Variables, input/output, operators
 **Description:**
 Create a console-based calculator that performs addition, subtraction, multiplication, and division based on user choice.
@@ -261,7 +261,7 @@ Create a console-based calculator that performs addition, subtraction, multiplic
 
 ---
 
-2. Number Guessing Game
+### 2. Number Guessing Game
 **Concepts:** Conditional statements, loops
 **Description:**
 The program generates a random number, and the user guesses until correct. Provide hints (higher/lower).
@@ -272,7 +272,7 @@ The program generates a random number, and the user guesses until correct. Provi
 
 ---
 
-3. Student Grade System
+### 3. Student Grade System
 **Concepts:** Conditions, logical operators
 **Description:**
 Take marks as input and calculate grade (A, B, C, Fail) based on predefined rules.
@@ -283,7 +283,7 @@ Take marks as input and calculate grade (A, B, C, Fail) based on predefined rule
 
 ---
 
-4. Multiplication Table Generator
+### . Multiplication Table Generator
 **Concepts:** Loops
 **Description:**
 Generate a multiplication table for a given number up to a specified range.
@@ -294,7 +294,7 @@ Generate a multiplication table for a given number up to a specified range.
 
 ---
 
-5. To-Do List (Console Based)
+### 5. To-Do List (Console Based)
 **Concepts:** Lists, loops
 **Description:**
 Allow users to add, view, and remove tasks from a to-do list using a menu-driven program.
@@ -305,7 +305,7 @@ Allow users to add, view, and remove tasks from a to-do list using a menu-driven
 
 ---
 
-6. Password Validator
+### 6. Password Validator
 **Concepts:** Strings, conditions
 **Description:**
 Check whether a password meets criteria (length, digits, uppercase, special character).
@@ -316,7 +316,7 @@ Check whether a password meets criteria (length, digits, uppercase, special char
 
 ---
 
-7. ATM Simulation System
+### 7. ATM Simulation System
 **Concepts:** Functions, conditionals
 **Description:**
 Simulate ATM operations: check balance, deposit, withdraw, and exit.
@@ -327,7 +327,7 @@ Simulate ATM operations: check balance, deposit, withdraw, and exit.
 
 ---
 
-8. Contact Management System
+### 8. Contact Management System
 **Concepts:** Dictionary, functions
 **Description:**
 Store contacts with name and phone number. Support add, search, update, and delete operations.
@@ -338,7 +338,7 @@ Store contacts with name and phone number. Support add, search, update, and dele
 
 ---
 
-9. Quiz Application
+### 9. Quiz Application
 
 **Concepts:** Lists, dictionaries, loops
 **Description:**
@@ -350,7 +350,7 @@ Create a quiz with multiple questions, track score, and show final results.
 
 ---
 
-10. Mini Banking System
+### 10. Mini Banking System
 **Concepts:** Functions, data structures, logic flow
 **Description:**
 Develop a small banking system with user accounts, login, balance tracking, and transaction history.
