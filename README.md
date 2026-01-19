@@ -248,7 +248,7 @@ Q20. Create a function named `generate_bill()` that:
 - Prints total bill
 - Prints payment confirmation message
 
-# PF prjects
+# **PF Projects**
 
 1. Simple Calculator
 **Concepts:** Variables, input/output, operators
