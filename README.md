@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/78a742f8-9334-4f86-b25d-98d0ca2242d8)
+
 # Programming Fundamentals | Python
 
 ## 01 – Practice Questions Set
