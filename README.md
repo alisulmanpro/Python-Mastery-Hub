@@ -1,16 +1,43 @@
-![Image](https://github.com/user-attachments/assets/78a742f8-9334-4f86-b25d-98d0ca2242d8)
-
 # Programming Fundamentals | Python
 
-## 01 – Practice Questions Set
+---
+![Image](https://github.com/user-attachments/assets/78a742f8-9334-4f86-b25d-98d0ca2242d8)
 
-Q1. Write a program where `a = 10` and `b = 20`, swap their values **without using a third variable**, and print the result.
+---
 
-Q2. Write a program where `city1 = "Lahore"` and `city2 = "Karachi"`, swap their values, and print both variables.
+### Practice Set 01: Python Basics (Variables, Input, Output, and Simple Operations)
 
-Q3. Write a program that takes **two numbers from the user** and prints their **sum**.
+1. **Swap Numbers Without Extra Variable**  
+   Create two variables: `a = 10` and `b = 20`. Swap their values without using a third variable. Then print both variables to show the swap worked.
+   
+   Example output:  
+   ```python
+   a = 20
+   b = 10
+   ```
 
-Q4. Write a program that takes the user’s **name** from user and prints:  `Hello <name>`
+2. **Swap City Names**  
+   Create two variables: `city1 = "Lahore"` and `city2 = "Karachi"`. Swap their values. Then print both variables.
+   
+   Example output:  
+   ```python
+   city1 = Karachi
+   city2 = Lahore
+   ```
+
+3. **Add Two Numbers from User**  
+   Ask the user to enter two numbers (one number per input). Add them and print the sum.
+   
+   Example:  
+   If user enters `5` and `8`, output should be: `13`  
+
+4. **Say Hello to User**  
+   Ask the user to enter their name. Print a greeting in this exact format: `Hello Ali!`
+   
+6. **Area of Rectangle**  
+   Ask the user for length and width (two numbers). Calculate area (length × width) and print: `Area = ` followed by the answer.
+
+   Example: Input `4` and `5` → `Area = 20`
 
 ---
 
