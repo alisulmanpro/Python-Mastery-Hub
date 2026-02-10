@@ -53,7 +53,11 @@ Q4. Write a program that takes the user’s `name` and `age` from user and print
 
 Q5. Write a program that takes the user’s `name` and uses **f-string** to print:  `Hello <name>, welcome to Python`
 
-Q6. Write a program where you concatenate **three strings** to form one meaningful sentence and print it.
+Q6. Concatenate a string and a number (after proper conversion) to print:
+`You have 5 new messages`
+
+Q7. Take three inputs: `day`, `month`, and `year` and print the date in format:
+`DD-MM-YYYY`
 
 ---
 
