@@ -36,8 +36,10 @@ These practice sets in the Python Mastery Hub are a carefully structured sequenc
 3. **Add Two Numbers from User**  
    Ask the user to enter two numbers (one number per input). Add them and print the sum.
    
+   ```markdown
    Example:  
-   If user enters `5` and `8`, output should be: `13`  
+   If user enters `5` and `8`, output should be: `13`
+   ```
 
 4. **Say Hello to User**  
    Ask the user to enter their name. Print a greeting in this exact format: `Hello Ali!`
@@ -45,62 +47,210 @@ These practice sets in the Python Mastery Hub are a carefully structured sequenc
 6. **Area of Rectangle**  
    Ask the user for length and width (two numbers). Calculate area (length × width) and print: `Area = ` followed by the answer.
 
+   ```markdown
    Example: Input `4` and `5` → `Area = 20`
+   ```
 
 
-## 02 – Practice Questions Set
+## Practice Set 02: Strings & String Manipulation
 
-Q1. Write a program where `first_name = "Ali"` and `last_name = "Khan"`, and print the full name using string concatenation.
+1. **Full Name Greeting**  
+   Ask the user for their first name and last name separately. Concatenate them and print a greeting like `Hello, First Last!`.  
+   
+   ```markdown
+   Example:  
+   Input: `Ali`, `Sulman` → Output: `Hello, Ali Sulman!`
+   ```
 
-Q2. Write a program that takes the user’s `first name` and `last name` from user and prints them together as a full name.
+2. **Welcome Message with Age**  
+   Ask for the user's name and age. Print a message: `Welcome, [Name]! You are [Age] years old.`. Use f-strings.  
+   
+   ```markdown
+   Example:  
+   Input: `Ali`, `20` → Output: `Welcome, Ali! You are 20 years old.`
+   ```
 
-Q3. Write a program where `language = "Python"` and print the sentence:  `I am learning Python`
+3. **String Length Counter**  
+   Ask the user to enter any sentence. Print the total number of characters (including spaces).  
+   
+   ```markdown
+   Example:  
+   Input: `Hello World` → Output: `Length: 11`
+   ```
 
-Q4. Write a program that takes the user’s `name` and `age` from user and prints:   `My name is <name> and I am <age> years old`
+4. **Upper and Lower Case**  
+   Ask for a string. Print it in all uppercase, then all lowercase.  
+   
+   ```markdown
+   Example:  
+   Input: `Python is Fun` → Output:  
+   `UPPERCASE: PYTHON IS FUN`  
+   `lowercase: python is fun`
+   ```
 
-Q5. Write a program that takes the user’s `name` and uses **f-string** to print:  `Hello <name>, welcome to Python`
+5. **Name Formatting**  
+   Ask for first name and last name. Print:  
+   - Full name in normal case  
+   - Full name in uppercase  
+   - Full name in title case (first letter of each word capitalized)  
+   
+   ```markdown
+   Example:  
+   Input: `ali`, `sulman` → Output:  
+   `Normal: ali sulman`  
+   `UPPERCASE: ALI SULMAN`  
+   `Title Case: Ali Sulman`
+   ```
 
-Q6. Concatenate a string and a number (after proper conversion) to print:
-`You have 5 new messages`
+6. **Count Vowels**  
+   Ask the user for a word. Count and print how many vowels (a, e, i, o, u) it contains (case insensitive).  
+   
+   ```markdown
+   Example:  
+   Input: `education` → Output: `Number of vowels: 5`
+   ```
 
-Q7. Take three inputs: `day`, `month`, and `year` and print the date in format:
-`DD-MM-YYYY`
+7. **Reverse a String**  
+   Ask the user for a string. Print it in reverse order.  
+   
+   ```markdown
+   Example:  
+   Input: `Python` → Output: `Reversed: nohtyP`
+   ```
+
+8. **Simple Username Generator**  
+   Ask for first name and last name. Create a username by combining: first letter of first name (lowercase) + full last name (lowercase) + a random number (you can hardcode one like 123).  
+   
+   ```markdown
+   Example:  
+   Input: `Ali`, `Sulman` → Output: `Username: asulman123`
+   ```
+
+9. **Formatted Bill Message**  
+   Ask for item name, quantity, and price per item. Calculate total (quantity × price) and print a formatted bill:  
+   `Item: [Item]`  
+   `Quantity: [Quantity]`  
+   `Price per item: Rs.[Price]`  
+   `Total: Rs.[Total]`  
+   
+   ```markdown
+   Example:  
+   Input: `Apple`, `5`, `50` → Output:  
+   `Item: Apple`  
+   `Quantity: 5`  
+   `Price per item: Rs.50`  
+   `Total: Rs.250`
+   ```
+
+## Practice Set 03: Conditionals (if/elif/else)
+
+1. **Check Even or Odd**  
+   Ask the user to enter a number. Print whether it is **even** or **odd**.  
 
 
-## 03 – Practice Questions Set (if / elif / else)
+   ```markdown
+   Example:  
+   Input: `4` → Output: `Even`  
+   Input: `7` → Output: `Odd`
+   ```
 
-Q1. Write a program that takes a number from the user and prints whether the number is **even or odd**.
+1. **Compare Two Numbers**  
+   Ask the user to enter two numbers. Print which one is greater (or if they are equal).  
 
-Q2. Write a program that takes two numbers from the user and prints **which number is greater**.
 
-Q3. Write a program that takes the user’s **age** and prints:
-- `Child` if age is less than 13  
-- `Teenager` if age is between 13 and 19  
-- `Adult` otherwise
+   ```markdown
+   Example:  
+   Input: `10` and `5` → Output: `10 is greater`  
+   Input: `8` and `8` → Output: `Both are equal`
+   ```
 
-Q4. Write a program that takes a student’s **marks** and prints:
-- `Pass` if marks are 40 or above  
-- `Fail` otherwise
+2. **Determine Age Category**  
+   Ask the user for their age. Print:  
+   - `Child` if age < 13  
+   - `Teenager` if age is 13–19  
+   - `Adult` otherwise  
 
-Q5. Write a program that takes a number from the user and prints whether the number is **zero, positive, or negative**.
+   
+   ```markdown
+   Example:  
+   Input: `10` → Output: `Child`  
+   Input: `16` → Output: `Teenager`  
+   Input: `25` → Output: `Adult`
+   ```
+   
+3. **Pass or Fail**  
+   Ask the user for their marks (out of 100). Print `Pass` if marks ≥ 40, otherwise `Fail`.  
 
-Q6. Write a program that takes a number from the user and checks whether it is **divisible by 3 or not**.
+   
+   ```markdown
+   Example:  
+   Input: `55` → Output: `Pass`  
+   Input: `35` → Output: `Fail`
+   ```
 
-Q7. Write a program that takes the user’s **percentage** and prints:
-- `A Grade` if percentage is 80 or above  
-- `B Grade` if percentage is between 60 and 79  
-- `C Grade` if percentage is between 40 and 59  
-- `Fail` otherwise
+4. **Positive, Negative, or Zero**  
+   Ask the user to enter a number. Print whether it is **positive**, **negative**, or **zero**.  
 
-Q8. Write a program that asks the user for the **day of the week** and prints:  
-- Monday → `Start of the week!`  
-- Friday → `Weekend is near!`  
-- Saturday / Sunday → `Enjoy your weekend!`  
-- Any other day → `Keep going!`
+   
+   ```markdown
+   Example:  
+   Input: `8` → Output: `Positive`  
+   Input: `-3` → Output: `Negative`  
+   Input: `0` → Output: `Zero`
+   ```
 
-Q9. Create a calculator.
+5. **Divisible by 3**  
+   Ask the user to enter a number. Check and print if it is divisible by 3 or not.  
 
----
+   
+   ```markdown
+   Example:  
+   Input: `9` → Output: `Divisible by 3`  
+   Input: `10` → Output: `Not divisible by 3`
+   ```
+
+6. **Assign Grade Based on Percentage**  
+   Ask the user for their percentage (0–100). Print the grade:  
+   - `A Grade` if ≥ 80  
+   - `B Grade` if 60–79  
+   - `C Grade` if 40–59  
+   - `Fail` otherwise  
+
+   
+   ```markdown
+   Example:  
+   Input: `85` → Output: `A Grade`  
+   Input: `45` → Output: `C Grade`
+   ```
+
+7. **Day of the Week Message**  
+   Ask the user to enter a day of the week (e.g., "Monday"). Print a custom message:  
+   - Monday → `Start of the week!`  
+   - Friday → `Weekend is near!`  
+   - Saturday or Sunday → `Enjoy your weekend!`  
+   - Any other → `Keep going!`
+     
+   
+   ```markdown
+   Example:  
+   Input: `Friday` → Output: `Weekend is near!`  
+   Input: `Sunday` → Output: `Enjoy your weekend!`
+   ```
+
+8. **Simple Calculator**  
+   Create a basic calculator:  
+   - Ask for two numbers.  
+   - Ask for an operation (`+`, `-`, `*`, `/`).  
+   - Use if/elif/else to perform the operation and print the result.  
+   - Handle division by zero with a message like `Cannot divide by zero!`.
+       
+   
+   ```markdown
+   Example:  
+   Inputs: `10`, `5`, `+` → Output: `Result: 15`  
+   Inputs: `20`, `4`, `/` → Output: `Result: 5.0`  
+   Inputs: `8`, `0`, `/` → Output: `Cannot divide by zero!`
+   ```
 
 ## 04 – Practice Questions Set (Loops: while & for)
 
