@@ -1,5 +1,7 @@
 # Programming Fundamentals | Python
 
+These practice sets in the Python Mastery Hub are a carefully structured sequence of hands-on exercises designed to take absolute beginners from zero familiarity with Python to confident, independent coding. Each set focuses on a single core concept—starting with basics like variables and input/output, then progressing through strings, conditionals, loops, lists/tuples, sets/dictionaries, and finally functions—ensuring learners master one building block before moving to the next. These practice sets are essential because programming is a skill learned through active doing, not passive reading: repeated coding reinforces syntax, builds logical thinking, trains debugging instincts, and creates the muscle memory needed to write clean, functional code without constant reference. By working through these targeted questions in order, students gain genuine mastery and the confidence to tackle the repository’s Mega Tasks and console-based projects successfully.
+
 ---
 ![Image](https://github.com/user-attachments/assets/78a742f8-9334-4f86-b25d-98d0ca2242d8)
 
