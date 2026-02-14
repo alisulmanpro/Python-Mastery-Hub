@@ -277,29 +277,102 @@ Q9. Write a program to print given blow outputs using a loop:
 * * * *           * *                * * * *        1 2 3 4             *       *
 * * * * *         *                 * * * * *       1 2 3 4 5           * * * * *
 ```
----
 
-## 05 – Practice Questions Set (List & Tuple)
+### Practice Set 05: Lists & Tuples
 
-Q1. Create a list of **your favorite fruits** and print each fruit using a loop.
+1. **Create and Print a List**  
+   Ask the user to enter 5 favorite fruits (one by one). Store them in a list and print the complete list.  
 
-Q2. Create a list of **your weekly tasks** and add a new task for tomorrow to take input from user and print the updated list.
+   ```markdown
+   Example:  
+   Inputs: `Apple`, `Banana`, `Orange`, `Mango`, `Grape` → Output: `['Apple', 'Banana', 'Orange', 'Mango', 'Grape']`
+   ```
 
-Q3. Create a list of **five city names** and print the **first and last city** from the list.
+1. **Access List Elements**  
+   Create a list of 5 numbers. Print the first, last, and middle element using indexing.  
+   
+   ```markdown
+   Example:  
+   List: `[10, 20, 30, 40, 50]` → Output:  
+   `First: 10`  
+   `Middle: 30`  
+   `Last: 50`
+   ```
 
-Q4. Create a tuple of **days in a week** and print all the days.
+2. **List Slicing**  
+   Create a list of numbers from 1 to 10. Print:  
+   - First 5 elements  
+   - Last 3 elements  
+   - Elements from index 2 to 7  
+   
+   ```markdown
+   Example Output:  
+   `First 5: [1, 2, 3, 4, 5]`  
+   `Last 3: [8, 9, 10]`  
+   `Index 2 to 7: [3, 4, 5, 6, 7, 8]`
+   ```
 
-Q5. Convert the tuple of **days in a week** into a list and add `"Holiday"` at the end. Print the final list.
+3. **Modify List with Append and Insert**  
+   Start with an empty list. Ask the user for 3 items to add using `append()`. Then insert a new item at index 1 using `insert()`. Print the final list.  
+   
+   ```markdown
+   Example:  
+   Inputs: `Book`, `Pen`, `Notebook` → Insert `Pencil` at index 1 → Output: `['Book', 'Pencil', 'Pen', 'Notebook']`
+   ```
 
-Q6. Create a list of **shopping items**: `['milk', 'bread', 'eggs']`. Ask the user **one item** and check output if it is in the list or not.
+4. **Remove Elements**  
+   Create a list: `['Apple', 'Banana', 'Cherry', 'Banana']`. Remove the first 'Banana' using `remove()`, then remove the last element using `pop()`. Print the list after each operation.  
+   
+   ```markdown
+   Example Output:  
+   `After remove: ['Apple', 'Cherry', 'Banana']`  
+   `After pop: ['Apple', 'Cherry']`
+   ```
 
-Q7. Create a list of **your 5 favorite movies**. Replace the **second movie** with a new one and print the updated list.
+5. **List Operations**  
+   Ask the user for 5 numbers (one by one). Store in a list. Print:  
+   - Length of the list  
+   - Sum of all numbers  
+   - Maximum and minimum values  
+   
+   ```markdown
+   Example:  
+   Inputs: `10, 20, 30, 40, 50` → Output:  
+   `Length: 5`  
+   `Sum: 150`  
+   `Max: 50`  
+   `Min: 10`
+   ```
 
-Q8. Write a program to **combine two lists**: `fruits = ['apple', 'banana']` and `vegetables = ['carrot', 'spinach']` and print the combined list.
+6. **Introduction to Tuples**  
+   Create a tuple of 5 days of the week. Print the tuple, its length, and access the 3rd day. Try to change one element (it should show an error — mention this in comments).  
+   
+   ```markdown
+   Example:  
+   Tuple: `('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')` → Output:  
+   `Tuple: ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')`  
+   `Length: 5`  
+   `3rd Day: Wednesday`
+   ```
 
-Q9. Write a program to **count how many times an item appears** in a list. Example: `colors = ['red','blue','red','green','red']`
+7. **Tuple Unpacking**  
+   Create a tuple with name, age, and city. Unpack it into three variables and print a message: `Name: [name], Age: [age], City: [city]`.  
+   
+   ```markdown
+   Example:  
+   Tuple: `('Ali', 20, 'Islamabad')` → Output: `Name: Ali, Age: 20, City: Islamabad`
+   ```
 
----
+8. **Convert Between List and Tuple**  
+   Ask the user for 4 subjects. Store as a list. Convert to a tuple and print both. Then convert back to a list, add one more subject, and print the updated list.  
+   
+   ```markdown
+   Example:  
+   Inputs: `Math`, `Physics`, `Chemistry`, `English` → Add `Computer` → Output:  
+   `Original List: ['Math', 'Physics', 'Chemistry', 'English']`  
+   `As Tuple: ('Math', 'Physics', 'Chemistry', 'English')`  
+   `Updated List: ['Math', 'Physics', 'Chemistry', 'English', 'Computer']`
+   ```
 
 ## 06 – Practice Questions Set (Set & Dictionary)
 
