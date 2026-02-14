@@ -39,7 +39,6 @@
 
    Example: Input `4` and `5` → `Area = 20`
 
----
 
 ## 02 – Practice Questions Set
 
@@ -59,7 +58,6 @@ Q6. Concatenate a string and a number (after proper conversion) to print:
 Q7. Take three inputs: `day`, `month`, and `year` and print the date in format:
 `DD-MM-YYYY`
 
----
 
 ## 03 – Practice Questions Set (if / elif / else)
 
