@@ -105,14 +105,7 @@ Learn how to work with words and sentences. Almost every program needs text.
    Example: Input `lilly`, `collins` → Output: `Normal: lilly collins`, `Title Case: Lilly Collins`
    ```
 
-4. **Count Vowels**  
-   Ask for a word. Count vowels (a,e,i,o,u – ignore case).
-
-   ```markdown
-   Example: Input `education` → Output: `Number of vowels: 5`
-   ```
-
-5. **Formatted Bill**  
+4. **Formatted Bill**  
    Ask item name, quantity, price. Print neat bill with total.
 
    ```markdown
@@ -136,35 +129,42 @@ Learn how to make your program choose different actions using if/elif/else.
    Example: Input `7` → Output: `Odd`
    ```
 
-3. **Compare Two Numbers**  
+2. **Compare Two Numbers**  
    Ask two numbers. Print which is bigger or if equal.
 
    ```markdown
    Example: Input `10` `5` → Output: `10 is greater`
    ```
+   
 
-5. **Pass or Fail**  
+3. **Pass or Fail**  
    Ask marks. Print Pass (≥40) or Fail.
 
    ```markdown  
    Example: Input `35` → Output: `Fail`
    ```
+4. **Count Vowels**  
+   Ask for a word. Count vowels (a,e,i,o,u – ignore case).
 
-7. **Positive, Negative, Zero**  
+   ```markdown
+   Example: Input `education` → Output: `Number of vowels: 5`
+   ```
+   
+5. **Positive, Negative, Zero**  
    Ask a number. Print what it is.
 
    ```markdown
    Example: Input `-4` → Output: `Negative`
    ```
 
-9. **Grade System**  
+6. **Grade System**  
    Ask percentage. Print A (≥80), B (60-79), C (40-59), Fail.
 
    ```markdown
    Example: Input `85` → Output: `A Grade`
    ```
 
-11. **Simple Calculator**  
+7. **Simple Calculator**  
    Ask two numbers and operation (+ - * /). Print result. Show error for divide by zero.
 
       ```markdown
