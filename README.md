@@ -80,95 +80,50 @@ Learn how to store data in variables, take input from user, and print results. T
 
 ---
 
-## Practice Set 02: Strings & String Manipulation
+### Level 2: Working with Text - Strings
 
-1. **Full Name Greeting**  
-   Ask the user for their first name and last name separately. Concatenate them and print a greeting like `Hello, First Last!`.  
+**Why this level?**  
+Learn how to work with words and sentences. Almost every program needs text.
+
+1. **String Length Counter**  
+   Ask user for a sentence. Print how many characters it has.
    
    ```markdown
-   Example:  
-   Input: `Ali`, `Sulman` → Output: `Hello, Ali Sulman!`
+   Example: Input `Hello Pakistan` → Output: `Length: 14`
    ```
 
-2. **Welcome Message with Age**  
-   Ask for the user's name and age. Print a message: `Welcome, [Name]! You are [Age] years old.`. Use f-strings.  
-   
+2. **Upper and Lower Case**  
+   Ask for a string. Print it in uppercase and lowercase.
+
    ```markdown
-   Example:  
-   Input: `Ali`, `20` → Output: `Welcome, Ali! You are 20 years old.`
+   Example: Input `Python` → Output: `UPPER: PYTHON`, `lower: python`
    ```
 
-3. **String Length Counter**  
-   Ask the user to enter any sentence. Print the total number of characters (including spaces).  
-   
+3. **Name Formatting**  
+   Ask first and last name. Print normal, uppercase, and title case.
+
    ```markdown
-   Example:  
-   Input: `Hello World` → Output: `Length: 11`
+   Example: Input `lilly`, `collins` → Output: `Normal: lilly collins`, `Title Case: Lilly Collins`
    ```
 
-4. **Upper and Lower Case**  
-   Ask for a string. Print it in all uppercase, then all lowercase.  
-   
+4. **Count Vowels**  
+   Ask for a word. Count vowels (a,e,i,o,u – ignore case).
+
    ```markdown
-   Example:  
-   Input: `Python is Fun` → Output:  
-   `UPPERCASE: PYTHON IS FUN`  
-   `lowercase: python is fun`
+   Example: Input `education` → Output: `Number of vowels: 5`
    ```
 
-5. **Name Formatting**  
-   Ask for first name and last name. Print:  
-   - Full name in normal case  
-   - Full name in uppercase  
-   - Full name in title case (first letter of each word capitalized)  
-   
-   ```markdown
-   Example:  
-   Input: `ali`, `sulman` → Output:  
-   `Normal: ali sulman`  
-   `UPPERCASE: ALI SULMAN`  
-   `Title Case: Ali Sulman`
-   ```
+5. **Formatted Bill**  
+   Ask item name, quantity, price. Print neat bill with total.
 
-6. **Count Vowels**  
-   Ask the user for a word. Count and print how many vowels (a, e, i, o, u) it contains (case insensitive).  
-   
    ```markdown
-   Example:  
-   Input: `education` → Output: `Number of vowels: 5`
-   ```
-
-7. **Reverse a String**  
-   Ask the user for a string. Print it in reverse order.  
-   
-   ```markdown
-   Example:  
-   Input: `Python` → Output: `Reversed: nohtyP`
-   ```
-
-8. **Simple Username Generator**  
-   Ask for first name and last name. Create a username by combining: first letter of first name (lowercase) + full last name (lowercase) + a random number (you can hardcode one like 123).  
-   
-   ```markdown
-   Example:  
-   Input: `Ali`, `Sulman` → Output: `Username: asulman123`
-   ```
-
-9. **Formatted Bill Message**  
-   Ask for item name, quantity, and price per item. Calculate total (quantity × price) and print a formatted bill:  
-   `Item: [Item]`  
-   `Quantity: [Quantity]`  
-   `Price per item: Rs.[Price]`  
-   `Total: Rs.[Total]`  
-   
-   ```markdown
-   Example:  
-   Input: `Apple`, `5`, `50` → Output:  
+   Example: Input `Apple`, `5`, `50` → Output:  
    `Item: Apple`  
    `Quantity: 5`  
-   `Price per item: Rs.50`  
    `Total: Rs.250`
    ```
+
+---
 
 ## Practice Set 03: Conditionals (if/elif/else)
 
