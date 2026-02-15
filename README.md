@@ -7,9 +7,20 @@
 This is a simple step-by-step Python learning hub for complete beginners. You start from zero and slowly become good at coding. We have 7 levels. Each level teaches one important topic with easy practice questions. Practice is the only way to learn coding well – do every question yourself. After the levels, try the 20 fun console projects to use everything you learned.
 
 ---
+
 ![Image](https://github.com/user-attachments/assets/78a742f8-9334-4f86-b25d-98d0ca2242d8)
 
 ---
+
+## Table of Contents
+- [Level 1: Python Basics - Variables & Input/Output](#level-1-python-basics---variables--inputoutput)
+- [Level 2: Working with Text - Strings](#level-2-working-with-text---strings)
+- [Level 3: Making Decisions - Conditionals](#level-3-making-decisions---conditionals)
+- [Level 4: Repeating Tasks - Loops](#level-4-repeating-tasks---loops)
+- [Level 5: Organizing Data - Lists & Tuples](#level-5-organizing-data---lists--tuples)
+- [Level 6: Advanced Collections - Sets & Dictionaries](#level-6-advanced-collections---sets--dictionaries)
+- [Level 7: Reusable Code - Functions](#level-7-reusable-code---functions)
+- [20 Console Projects](#20-console-projects)
 
 ### Practice Set 01: Python Basics (Variables, Input, Output, and Simple Operations)
 
