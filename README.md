@@ -215,101 +215,30 @@ Learn how to repeat work easily using while and for loops.
 
 ---
 
-### Practice Set 05: Lists & Tuples
+### Level 5: Organizing Data - Lists & Tuples
 
-1. **Create and Print a List**  
-   Ask the user to enter 5 favorite fruits (one by one). Store them in a list and print the complete list.  
+**Why this level?**  
+Learn how to store many items in lists (can change) and tuples (cannot change).
 
-   ```markdown
-   Example:  
-   Inputs: `Apple`, `Banana`, `Orange`, `Mango`, `Grape` → Output: `['Apple', 'Banana', 'Orange', 'Mango', 'Grape']`
-   ```
+1. **Create Fruit List**  
+   Ask user for 5 fruits. Store in list and print.
 
-1. **Access List Elements**  
-   Create a list of 5 numbers. Print the first, last, and middle element using indexing.  
-   
-   ```markdown
-   Example:  
-   List: `[10, 20, 30, 40, 50]` → Output:  
-   `First: 10`  
-   `Middle: 30`  
-   `Last: 50`
-   ```
+2. **Access List Items**  
+   Make list [10,20,30,40,50]. Print first, middle, last.
 
-2. **List Slicing**  
-   Create a list of numbers from 1 to 10. Print:  
-   - First 5 elements  
-   - Last 3 elements  
-   - Elements from index 2 to 7  
-   
-   ```markdown
-   Example Output:  
-   `First 5: [1, 2, 3, 4, 5]`  
-   `Last 3: [8, 9, 10]`  
-   `Index 2 to 7: [3, 4, 5, 6, 7, 8]`
-   ```
+3. **Add and Insert Items**  
+   Start empty list. Append 3 items. Insert one at position 1. Print final list.
 
-3. **Modify List with Append and Insert**  
-   Start with an empty list. Ask the user for 3 items to add using `append()`. Then insert a new item at index 1 using `insert()`. Print the final list.  
-   
-   ```markdown
-   Example:  
-   Inputs: `Book`, `Pen`, `Notebook` → Insert `Pencil` at index 1 → Output: `['Book', 'Pencil', 'Pen', 'Notebook']`
-   ```
+4. **List Slicing**  
+   Make list 1 to 10. Print first 5, last 3, and items 3 to 8.
 
-4. **Remove Elements**  
-   Create a list: `['Apple', 'Banana', 'Cherry', 'Banana']`. Remove the first 'Banana' using `remove()`, then remove the last element using `pop()`. Print the list after each operation.  
-   
-   ```markdown
-   Example Output:  
-   `After remove: ['Apple', 'Cherry', 'Banana']`  
-   `After pop: ['Apple', 'Cherry']`
-   ```
+5. **Introduction to Tuples**  
+   Make tuple of 5 days. Print it and try to change one item (will give error).
 
-5. **List Operations**  
-   Ask the user for 5 numbers (one by one). Store in a list. Print:  
-   - Length of the list  
-   - Sum of all numbers  
-   - Maximum and minimum values  
-   
-   ```markdown
-   Example:  
-   Inputs: `10, 20, 30, 40, 50` → Output:  
-   `Length: 5`  
-   `Sum: 150`  
-   `Max: 50`  
-   `Min: 10`
-   ```
+6. **Convert List to Tuple**  
+   Ask 4 subjects → store in list → convert to tuple → print both.
 
-6. **Introduction to Tuples**  
-   Create a tuple of 5 days of the week. Print the tuple, its length, and access the 3rd day. Try to change one element (it should show an error — mention this in comments).  
-   
-   ```markdown
-   Example:  
-   Tuple: `('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')` → Output:  
-   `Tuple: ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')`  
-   `Length: 5`  
-   `3rd Day: Wednesday`
-   ```
-
-7. **Tuple Unpacking**  
-   Create a tuple with name, age, and city. Unpack it into three variables and print a message: `Name: [name], Age: [age], City: [city]`.  
-   
-   ```markdown
-   Example:  
-   Tuple: `('Ali', 20, 'Islamabad')` → Output: `Name: Ali, Age: 20, City: Islamabad`
-   ```
-
-8. **Convert Between List and Tuple**  
-   Ask the user for 4 subjects. Store as a list. Convert to a tuple and print both. Then convert back to a list, add one more subject, and print the updated list.  
-   
-   ```markdown
-   Example:  
-   Inputs: `Math`, `Physics`, `Chemistry`, `English` → Add `Computer` → Output:  
-   `Original List: ['Math', 'Physics', 'Chemistry', 'English']`  
-   `As Tuple: ('Math', 'Physics', 'Chemistry', 'English')`  
-   `Updated List: ['Math', 'Physics', 'Chemistry', 'English', 'Computer']`
-   ```
+---
 
 ## 06 – Practice Questions Set (Set & Dictionary)
 
