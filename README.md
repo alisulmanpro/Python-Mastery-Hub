@@ -3,10 +3,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![License](https://img.shields.io/badge/license-Apache%205-green.svg)](LICENSE)
 [![License](https://img.shields.io/badge/license-GPL%20v4-green.svg)](LICENSE)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-These practice sets in the Python Mastery Hub are a carefully structured sequence of hands-on exercises designed to take absolute beginners from zero familiarity with Python to confident, independent coding. Each set focuses on a single core concept—starting with basics like variables and input/output, then progressing through strings, conditionals, loops, lists/tuples, sets/dictionaries, and finally functions—ensuring learners master one building block before moving to the next. These practice sets are essential because programming is a skill learned through active doing, not passive reading: repeated coding reinforces syntax, builds logical thinking, trains debugging instincts, and creates the muscle memory needed to write clean, functional code without constant reference. By working through these targeted questions in order, students gain genuine mastery and the confidence to tackle the repository’s Mega Tasks and console-based projects successfully.
+This is a simple step-by-step Python learning hub for complete beginners. You start from zero and slowly become good at coding. We have 7 levels. Each level teaches one important topic with easy practice questions. Practice is the only way to learn coding well – do every question yourself. After the levels, try the 20 fun console projects to use everything you learned.
 
 ---
 ![Image](https://github.com/user-attachments/assets/78a742f8-9334-4f86-b25d-98d0ca2242d8)
