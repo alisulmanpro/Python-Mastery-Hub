@@ -1,8 +1,7 @@
 # Programming Fundamentals | Python
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![License](https://img.shields.io/badge/license-Apache%205-green.svg)](LICENSE)
-[![License](https://img.shields.io/badge/license-GPL%20v4-green.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-Ready--to--Learn-green)
 
 This is a simple step-by-step Python learning hub for complete beginners. You start from zero and slowly become good at coding. We have 7 levels. Each level teaches one important topic with easy practice questions. Practice is the only way to learn coding well – do every question yourself. After the levels, try the 20 fun console projects to use everything you learned.
 
