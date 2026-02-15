@@ -290,7 +290,7 @@ Learn how to make functions so you can use same code again easily.
 
 ---
 
-## Console Projects
+## 20 Console Projects
 
 1. **Scientific Calculator**  
    Make a menu-based calculator with many math operations.  
