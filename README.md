@@ -290,192 +290,180 @@ Learn how to make functions so you can use same code again easily.
 
 ---
 
-## PF (Programming Fundamentals) Mega Practice Tasks
+## Console Projects
 
+1. **Scientific Calculator**  
+   Make a menu-based calculator with many math operations.  
+   Use `import math` for advanced functions.  
+   Create separate functions for each operation in a file called `operations.py`.  
+   Main file `main.py` shows menu and calls functions.  
 
-### Phase 1: Basics & Input/Output
-Q1. Create variables to store **shop name** and **shop city** and print them in one line.
+   Features:  
+   - Addition, Subtraction, Multiplication, Division  
+   - Square, Cube, Custom Power (like x^y)  
+   - Square Root, Cube Root  
+   - Sin, Cos, Tan (and inverse: asin, acos, atan)  
+   - Log (base 10), Natural Log (ln), Antilog  
+   - Handle errors (like divide by zero)  
 
-Q2. Take user input for **customer name** and print a welcome message.
+   Small Challenge: Add memory – user can store last result and use it again (M+ button style).
 
-Q3. Create variables for **item name** and **item price**, then print them.
+2. **Number Guessing Game**  
+   Computer picks a random number. User guesses with hints.  
+   Use `import random` and `import time`.  
 
----
+   Features:  
+   - User chooses how many rounds to play  
+   - Each round the range increases (Round 1: 1-50, Round 2: 1-100, etc.)  
+   - Time limit: starts 30 seconds, every next round subtract 5 seconds  
+   - Show "Too high" or "Too low" hints  
+   - Count total score  
 
-### Phase 2: Strings & Concatenation
-Q4. Concatenate customer name and item name to print:  
-`<customer> is buying <item>`
+   Small Challenge: Save high score with player name (use a text file if you want extra practice).
 
-Q5. Take input for **quantity** and print a sentence using concatenation showing quantity and item name.
+3. **Quiz Game**  
+   Ask multiple-choice questions. Count score at the end.  
 
----
+   Features:  
+   - At least 10 questions stored in a list of dictionaries  
+   - Questions come in random order every time  
+   - 4 options for each question  
+   - Timer: 15 seconds per question  
+   - Show final score and correct answers  
 
-### Phase 3: Conditions (if / elif / else)
-Q6. If quantity is greater than 5, print `Bulk order`, otherwise print `Regular order`.
+   Small Challenge: Add different categories (like General Knowledge, Python, Pakistan History) – user chooses category first.
 
-Q7. If item price is greater than 1000, print `Expensive item`, else print `Affordable item`.
+4. **To-Do List**  
+   Simple task manager.  
 
-Q8. Take input for **payment method** (`cash`, `card`, `online`) and print a confirmation message based on input.
+   Features:  
+   - Add task  
+   - View all tasks with numbers  
+   - Mark task as completed  
+   - Delete task  
+   - Save tasks when program ends (use a text file – optional but good practice)  
 
----
+   Small Challenge: Add due date for each task and show warning if today’s date is past due.
 
-### Phase 4: Loops
-Q9. Use a loop to print item name **quantity number of times**.
+5. **Password Generator**  
+   Create strong random passwords.  
 
-Q10. Use a loop to print numbers from 1 to quantity.
+   Features:  
+   - Ask length and what to include (uppercase, lowercase, numbers, symbols)  
+   - Generate password  
+   - Option to generate many at once  
+   - Check password strength (simple count of character types)  
 
-Q11. Use a loop to calculate **total price** by adding item price quantity times.
+   Small Challenge: Add option to exclude similar characters (like l and 1, O and 0).
 
----
+6. **BMI Calculator**  
+   Calculate Body Mass Index and give health advice.  
 
-### Phase 5: List
-Q12. Create a list named `cart` and add **three item names** to it.
+   Features:  
+   - Ask weight (kg) and height (cm or meters)  
+   - Calculate BMI = weight / (height in m)²  
+   - Show category: Underweight, Normal, Overweight, Obese  
+   - Explain what BMI means in simple words  
 
-Q13. Print all items in the cart using a loop.
+   Small Challenge: Add ideal weight suggestion based on height.
 
-Q14. Ask the user to enter an item name and check if it exists in the cart.
+7. **Hangman Game**  
+   Classic word guessing game.  
 
----
+   Features:  
+   - Random word from a list  
+   - Show dashes for letters  
+   - 6 wrong guesses allowed (draw simple hangman with print)  
+   - Accept only single letters  
 
-### Phase 6: Tuple
-Q15. Create a tuple of **available payment methods** and print them.
+   Small Challenge: Add categories (fruits, animals, countries) – user chooses first.
 
-Q16. Check whether the user’s selected payment method exists in the tuple.
+8. **Tic-Tac-Toe (Player vs Computer)**  
+   Play against computer.  
 
----
+   Features:  
+   - 3x3 board shown with numbers  
+   - Player is X, computer is O  
+   - Computer makes random valid move  
+   - Check for win or draw after each turn  
 
-### Phase 7: Set
-Q17. Create a set from the cart list to remove duplicate items and print unique items.
+   Small Challenge: Make computer smarter – block player if they are about to win.
 
----
+9. **Contact Book**  
+   Store and manage contacts.  
 
-### Phase 8: Dictionary
-Q18. Create a dictionary where:
-- keys = item names
-- values = item prices  
-Print the dictionary.
+   Features:  
+   - Add contact (name, phone, email)  
+   - Search by name  
+   - View all contacts  
+   - Delete contact  
+   - Save to file (optional)  
 
-Q19. Use a loop to calculate the **total bill** from the dictionary.
+   Small Challenge: Add edit contact option.
 
----
+10. **Simple Banking System**  
+    Basic bank account simulator.  
 
-### Phase 9: Functions (Final Integration)
-Q20. Create a function named `generate_bill()` that:
-- Takes customer name, cart dictionary, and payment method
-- Prints customer name
-- Prints all items with prices
-- Prints total bill
-- Prints payment confirmation message
+    Features:  
+    - Create account with name and starting balance  
+    - Deposit money  
+    - Withdraw (check if enough balance)  
+    - View balance and transaction history  
+    - Simple PIN protection (ask PIN at start)  
 
-# **PF Projects**
+    Small Challenge: Add interest calculation every "month" (when user presses option).
 
-### 1. Simple Calculator
-**Concepts:** Variables, input/output, operators
-**Description:**
-Create a console-based calculator that performs addition, subtraction, multiplication, and division based on user choice.
-**Skills Practiced:**
-- `input()` / `print()`
-- Arithmetic operators
-- Basic control flow
+11. **Simple Encryption Tool**  
+    Encrypt and decrypt messages using Caesar cipher.  
+    Create two files: `crypto.py` (functions) and `main.py` (menu).  
 
----
+    Features:  
+    - Menu: Encrypt, Decrypt, Exit  
+    - Ask message and salt (shift number 1-25)  
 
-### 2. Number Guessing Game
-**Concepts:** Conditional statements, loops
-**Description:**
-The program generates a random number, and the user guesses until correct. Provide hints (higher/lower).
-**Skills Practiced:**
-- `if / elif / else`
-- `while` loop
-- `random` module
+    You must create these two functions in `crypto.py`:
+    
+    ```python
+    def encrypt(message: str, salt: int) -> str:
+        # Shift each letter forward by salt (a → d if salt=3)
+        # Keep case, ignore non-letters
+        
+    def decrypt(message: str, salt: int) -> str:
+        # Shift backward
+    ```
 
----
+    Small Challenge: Add option to try all 25 shifts to break unknown cipher (brute force).
 
-### 3. Student Grade System
-**Concepts:** Conditions, logical operators
-**Description:**
-Take marks as input and calculate grade (A, B, C, Fail) based on predefined rules.
-**Skills Practiced:**
-- Conditional logic
-- Comparison operators
-- Input validation
+13. **Countdown Timer**  
+    Timer that counts down and beeps at end.  
 
----
+    Features:  
+    - Ask minutes and seconds  
+    - Show time left updating every second  
+    - Print "Time's up!" at end  
+    - Use `time.sleep(1)`  
 
-### . Multiplication Table Generator
-**Concepts:** Loops
-**Description:**
-Generate a multiplication table for a given number up to a specified range.
-**Skills Practiced:**
-- `for` loop
-- Formatting output
-- Iteration logic
+    Small Challenge: Add pause and resume with key press.
 
----
+14. **Simple Chatbot**  
+    Bot that replies to user messages.  
 
-### 5. To-Do List (Console Based)
-**Concepts:** Lists, loops
-**Description:**
-Allow users to add, view, and remove tasks from a to-do list using a menu-driven program.
-**Skills Practiced:**
-- Lists
-- Menu-based programs
-- Loop control
+    Features:  
+    - Greet user  
+    - Reply to common questions (how are you, what is your name, time, date, etc.)  
+    - Funny replies for unknown messages  
+    - Exit command  
 
----
+    Small Challenge: Remember user name after first ask and use it in replies.
 
-### 6. Password Validator
-**Concepts:** Strings, conditions
-**Description:**
-Check whether a password meets criteria (length, digits, uppercase, special character).
-**Skills Practiced:**
-- String methods
-- Logical conditions
-- Validation rules
+15. **Student Grade System**  
+    Manage student records and marks.  
 
----
+    Features:  
+    - Add student (name, roll no, marks in 5 subjects)  
+    - View all students with percentage and grade  
+    - Search student by roll no  
+    - Show class average and highest scorer  
 
-### 7. ATM Simulation System
-**Concepts:** Functions, conditionals
-**Description:**
-Simulate ATM operations: check balance, deposit, withdraw, and exit.
-**Skills Practiced:**
-- Functions
-- State management
-- Conditional branching
-
----
-
-### 8. Contact Management System
-**Concepts:** Dictionary, functions
-**Description:**
-Store contacts with name and phone number. Support add, search, update, and delete operations.
-**Skills Practiced:**
-- Dictionaries
-- CRUD operations
-- Function modularity
-
----
-
-### 9. Quiz Application
-
-**Concepts:** Lists, dictionaries, loops
-**Description:**
-Create a quiz with multiple questions, track score, and show final results.
-**Skills Practiced:**
-- Nested data structures
-- Looping over data
-- Scoring logic
-
----
-
-### 10. Mini Banking System
-**Concepts:** Functions, data structures, logic flow
-**Description:**
-Develop a small banking system with user accounts, login, balance tracking, and transaction history.
-**Skills Practiced:**
-- Functions + dictionaries
-- Program flow control
-- Real-world problem modeling
-
----
+    Small Challenge: Save data to file so it remains after program closes.
+_ _ _
