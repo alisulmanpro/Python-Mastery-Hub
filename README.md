@@ -125,115 +125,54 @@ Learn how to work with words and sentences. Almost every program needs text.
 
 ---
 
-## Practice Set 03: Conditionals (if/elif/else)
+### Level 3: Making Decisions - Conditionals
 
-1. **Check Even or Odd**  
-   Ask the user to enter a number. Print whether it is **even** or **odd**.  
+**Why this level?**  
+Learn how to make your program choose different actions using if/elif/else.
 
-
-   ```markdown
-   Example:  
-   Input: `4` → Output: `Even`  
-   Input: `7` → Output: `Odd`
-   ```
-
-1. **Compare Two Numbers**  
-   Ask the user to enter two numbers. Print which one is greater (or if they are equal).  
-
-
-   ```markdown
-   Example:  
-   Input: `10` and `5` → Output: `10 is greater`  
-   Input: `8` and `8` → Output: `Both are equal`
-   ```
-
-2. **Determine Age Category**  
-   Ask the user for their age. Print:  
-   - `Child` if age < 13  
-   - `Teenager` if age is 13–19  
-   - `Adult` otherwise  
-
+1. **Even or Odd**  
+   Ask a number. Print Even or Odd.
    
    ```markdown
-   Example:  
-   Input: `10` → Output: `Child`  
-   Input: `16` → Output: `Teenager`  
-   Input: `25` → Output: `Adult`
+   Example: Input `7` → Output: `Odd`
    ```
-   
-3. **Pass or Fail**  
-   Ask the user for their marks (out of 100). Print `Pass` if marks ≥ 40, otherwise `Fail`.  
 
-   
+3. **Compare Two Numbers**  
+   Ask two numbers. Print which is bigger or if equal.
+
    ```markdown
-   Example:  
-   Input: `55` → Output: `Pass`  
-   Input: `35` → Output: `Fail`
+   Example: Input `10` `5` → Output: `10 is greater`
    ```
 
-4. **Positive, Negative, or Zero**  
-   Ask the user to enter a number. Print whether it is **positive**, **negative**, or **zero**.  
+5. **Pass or Fail**  
+   Ask marks. Print Pass (≥40) or Fail.
 
-   
+   ```markdown  
+   Example: Input `35` → Output: `Fail`
+   ```
+
+7. **Positive, Negative, Zero**  
+   Ask a number. Print what it is.
+
    ```markdown
-   Example:  
-   Input: `8` → Output: `Positive`  
-   Input: `-3` → Output: `Negative`  
-   Input: `0` → Output: `Zero`
+   Example: Input `-4` → Output: `Negative`
    ```
 
-5. **Divisible by 3**  
-   Ask the user to enter a number. Check and print if it is divisible by 3 or not.  
+9. **Grade System**  
+   Ask percentage. Print A (≥80), B (60-79), C (40-59), Fail.
 
-   
    ```markdown
-   Example:  
-   Input: `9` → Output: `Divisible by 3`  
-   Input: `10` → Output: `Not divisible by 3`
+   Example: Input `85` → Output: `A Grade`
    ```
 
-6. **Assign Grade Based on Percentage**  
-   Ask the user for their percentage (0–100). Print the grade:  
-   - `A Grade` if ≥ 80  
-   - `B Grade` if 60–79  
-   - `C Grade` if 40–59  
-   - `Fail` otherwise  
+11. **Simple Calculator**  
+   Ask two numbers and operation (+ - * /). Print result. Show error for divide by zero.
 
-   
-   ```markdown
-   Example:  
-   Input: `85` → Output: `A Grade`  
-   Input: `45` → Output: `C Grade`
-   ```
+      ```markdown
+      Example: Input `10`, `5`, `/` → Output: `Result: 2.0`
+      ```
 
-7. **Day of the Week Message**  
-   Ask the user to enter a day of the week (e.g., "Monday"). Print a custom message:  
-   - Monday → `Start of the week!`  
-   - Friday → `Weekend is near!`  
-   - Saturday or Sunday → `Enjoy your weekend!`  
-   - Any other → `Keep going!`
-     
-   
-   ```markdown
-   Example:  
-   Input: `Friday` → Output: `Weekend is near!`  
-   Input: `Sunday` → Output: `Enjoy your weekend!`
-   ```
-
-8. **Simple Calculator**  
-   Create a basic calculator:  
-   - Ask for two numbers.  
-   - Ask for an operation (`+`, `-`, `*`, `/`).  
-   - Use if/elif/else to perform the operation and print the result.  
-   - Handle division by zero with a message like `Cannot divide by zero!`.
-       
-   
-   ```markdown
-   Example:  
-   Inputs: `10`, `5`, `+` → Output: `Result: 15`  
-   Inputs: `20`, `4`, `/` → Output: `Result: 5.0`  
-   Inputs: `8`, `0`, `/` → Output: `Cannot divide by zero!`
-   ```
+---
 
 ## 04 – Practice Questions Set (Loops: while & for)
 
