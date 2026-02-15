@@ -240,27 +240,28 @@ Learn how to store many items in lists (can change) and tuples (cannot change).
 
 ---
 
-## 06 – Practice Questions Set (Set & Dictionary)
+### Level 6: Advanced Collections - Sets & Dictionaries
 
-Q1. Create a set of **your favorite fruits** and print it. Add `"mango"` to the set and print again.
+**Why this level?**  
+Learn sets (unique items) and dictionaries (key-value pairs).
 
-Q2. Create a set of **numbers from 1 to 5** and another set of **numbers from 4 to 8**. Print the **common numbers** using set operations.
+1. **Create and Add to Set**  
+   Make empty set. Add 5 numbers. Print set (duplicates removed).
 
-Q3. Create a dictionary for a **student** with keys: `name`, `age`, `grade`. Print the dictionary.
+2. **Set Operations**  
+   Make two sets. Print union and intersection.
 
-Q4. Update the student dictionary to add a new key `city` and print the updated dictionary.
+3. **Remove from Set**  
+   Make set with 6 items. Remove one and discard one (if not exist). Print after each.
 
-Q5. Write a program where the user can input a **fruit name**. If the fruit exists in your dictionary of fruits and their prices, print its price; otherwise print `"Not available"`.
+4. **Student Marks Dictionary**  
+   Make dict with 3 student names and marks. Print all.
 
-Q6. Create a set of **your favorite movies**. Remove one movie using `discard()` and print the set.
+5. **Add and Update Dict**  
+   Start empty dict. Add 3 key-value pairs. Update one value.
 
-Q7. Create two dictionaries: `dict1 = {'a': 1, 'b': 2}` and `dict2 = {'b': 3, 'c': 4}`. Merge them and print the result.
-
-Q8. Write a program to **find unique words** in a sentence entered by the user using a set.
-
-Q9. Create a dictionary with **subject names as keys** and **marks as values**. Print all subjects where marks are above 50.
-
-Q10. Write a program to **count how many times each word appears** in a sentence using a dictionary.
+6. **Word Frequency**  
+   Ask a sentence. Make dict to count how many times each word appears.
 
 ---
 
