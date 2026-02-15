@@ -22,44 +22,63 @@ This is a simple step-by-step Python learning hub for complete beginners. You st
 - [Level 7: Reusable Code - Functions](#level-7-reusable-code---functions)
 - [20 Console Projects](#20-console-projects)
 
-### Practice Set 01: Python Basics (Variables, Input, Output, and Simple Operations)
+---
 
-1. **Swap Numbers Without Extra Variable**  
-   Create two variables: `a = 10` and `b = 20`. Swap their values without using a third variable. Then print both variables to show the swap worked.
-   
-   Example output:  
-   ```python
-   a = 20
-   b = 10
-   ```
+### Level 1: Python Basics - Variables & Input/Output
 
-2. **Swap City Names**  
-   Create two variables: `city1 = "Lahore"` and `city2 = "Karachi"`. Swap their values. Then print both variables.
-   
-   Example output:  
-   ```python
-   city1 = Karachi
-   city2 = Lahore
-   ```
+**Why this level?**  
+Learn how to store data in variables, take input from user, and print results. This is the first step of every Python program.
 
-3. **Add Two Numbers from User**  
-   Ask the user to enter two numbers (one number per input). Add them and print the sum.
+1. **Swap Two Numbers**  
+   Define two numbers in variable. Swap them without extra variable. Print both after swap.
    
    ```markdown
-   Example:  
-   If user enters `5` and `8`, output should be: `13`
+   Example: Input `First = 10` and `Second = 20` → Output: `First = 20`, `Second = 10`
+   ```
+   
+2. **Swap Two Strings**  
+   Take two strings from user. Swap them without extra variable. Print both after swap.
+   
+   ```markdown
+   Example: Input `First = "Ali"` and `Second = "Alia"` → Output: `First = "Alia"`, `Second = "Ali"`
    ```
 
-4. **Say Hello to User**  
-   Ask the user to enter their name. Print a greeting in this exact format: `Hello Ali!`
+3. **Add Two Numbers**  
+   Ask user for two numbers. Add them and print the sum.
    
-6. **Area of Rectangle**  
-   Ask the user for length and width (two numbers). Calculate area (length × width) and print: `Area = ` followed by the answer.
+   ```markdown
+   Example: Input `5` and `8` → Output: `Sum = 13`
+   ```
+
+4. **Area of Rectangle**  
+   Ask user for length and width. Calculate area and print it.
+   
+   ```markdown
+   Example: Input `4` and `6` → Output: `Area = 24`
+   ```
+
+5. **Say Hello to User**  
+   Ask user for name. Print `Hello [Name]!`
+   
+   ```markdown
+   Example: Input `Ali` → Output: `Hello Ali!`
+   ```
+
+6. **Full Name Greeting**  
+   Ask for first name and last name. Join them and print greeting.
+   
+   ```markdown
+   Example: Input `Alia` and `Mirza` → Output: `Hello, Alia Mirza!`
+   ```
+
+7. **Welcome with Age**  
+   Ask for name and age. Print welcome message using f-string.
 
    ```markdown
-   Example: Input `4` and `5` → `Area = 20`
+   Example: Input `Ali` and `20` → Output: `Welcome, Ali! You are 20 years old.`
    ```
 
+---
 
 ## Practice Set 02: Strings & String Manipulation
 
