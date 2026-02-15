@@ -265,38 +265,28 @@ Learn sets (unique items) and dictionaries (key-value pairs).
 
 ---
 
-## 07 – Practice Questions Set (Functions)
+### Level 7: Reusable Code - Functions
 
-Q1. Write a function named `greet()` that prints:  
-`Welcome to Python Programming`
+**Why this level?**  
+Learn how to make functions so you can use same code again easily.
 
-Q2. Write a function named `show_name(name)` that takes a **name as a parameter** and prints:  
-`Hello <name>`
+1. **Add Two Numbers Function**  
+   Make function add(a, b) that returns sum. Call it and print.
 
-Q3. Write a function named `add_numbers(a, b)` that takes **two numbers** and prints their **sum**.
+2. **Check Even/Odd Function**  
+   Make function is_even(num) that returns True or False. Use it.
 
-Q4. Write a function named `student_info(name, age)` that prints the student’s **name and age** in one sentence.
+3. **Maximum of Three**  
+   Make function max_of_three(a,b,c) that returns biggest number.
 
-Q5. Write a function named `calculate_bill(price, quantity)` that takes **price and quantity** and prints the total bill.
+4. **Factorial Function**  
+   Make function factorial(n) using loop. Return n!.
 
-Q6. Write a function named `is_even(number)` that returns whether the number is **even or odd**.
+5. **Greeting Function**  
+   Make function greet(name, age) that prints welcome message.
 
-Q7. Write a function named `get_full_name(first_name, last_name)` that returns the **full name** using string concatenation.
-
-Q8. Write a function named `find_max(a, b)` that returns the **greater number**.
-
-Q9. Write a function named `count_items(items)` that takes a **list** and returns the **total number of items**.
-
-Q10. Write a function named `show_menu()` that prints a simple **food menu** and calls the function when the program runs.
-
-Q11. Write a function named `calculate_discount(price)` that:
-- Takes the product price as a parameter
-- Applies a **10% discount**
-- Prints the final price after discount
-
-Q12. Write a function named `login_message(username)` that:
-- Takes a username as a parameter
-- Prints a welcome message for that user
+6. **Area Calculator Function**  
+   Make function area(shape, values) that calculates rectangle or triangle area.
 
 ---
 
