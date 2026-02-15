@@ -174,31 +174,46 @@ Learn how to make your program choose different actions using if/elif/else.
 
 ---
 
-## 04 – Practice Questions Set (Loops: while & for)
+### Level 4: Repeating Tasks - Loops
 
-Q1. Write a program using a `while loop` to print numbers from 1 to 10.
+**Why this level?**  
+Learn how to repeat work easily using while and for loops.
 
-Q2. Write a program using a `for loop` to print numbers from 1 to 10.
+1. **Print 1 to 10**  
+   Use for loop to print numbers 1 to 10.
 
-Q3. Write a program using a loop to print **even numbers from 1 to 20**.
+2. **Multiplication Table**  
+   Ask a number. Print its table (1 to 10).
 
-Q4. Write a program using a loop to print the **table of 5** e.g. `5 x 1 = 5`.
+   ```markdown 
+   Example: Input `5` → `5 x 1 = 5` ... `5 x 10 = 50`
+   ```
 
-Q5. Write a program using a loop to print the **sum of numbers from 1 to 10**.
+4. **Sum of Numbers**  
+   Ask a number n. Print sum from 1 to n.
 
-Q6. Write a program that takes a number from the user and prints numbers from **1 to that number**.
+   ```markdown
+   Example: Input `10` → Output: `Sum = 55`
+   ```
 
-Q7. Write a program that prints numbers from **10 to 1** using a loop.
+6. **Even Numbers 1-20**  
+   Print all even numbers from 1 to 20 using loop.
 
-Q9. Write a program to print given blow outputs using a loop:
-``` cmd
-1)                2)                3)              4)                  05)
-*                 * * * * *             *           1                   * * * * *
-* *               * * * *              * *          1 2                 *       *
-* * *             * * *               * * *         1 2 3               *       *
-* * * *           * *                * * * *        1 2 3 4             *       *
-* * * * *         *                 * * * * *       1 2 3 4 5           * * * * *
-```
+7. **Countdown**  
+   Print numbers from 10 down to 1 using while loop.
+
+8. **Simple Star Pattern**  
+   Print this pattern using loops:
+   
+   ```markdown
+   *                 1
+   * *               1 2
+   * * *             1 2 3
+   * * * *           1 2 3 4
+   * * * * *         1 2 3 4 5
+   ```
+
+---
 
 ### Practice Set 05: Lists & Tuples
 
