@@ -289,180 +289,69 @@ Learn how to make functions so you can use same code again easily.
 
 ---
 
-## 20 Console Projects
+## Console Base Projects
 
-1. **Scientific Calculator**  
-   Make a menu-based calculator with many math operations.  
-   Use `import math` for advanced functions.  
-   Create separate functions for each operation in a file called `operations.py`.  
-   Main file `main.py` shows menu and calls functions.  
+1. **Number Guessing Game**
 
-   Features:  
-   - Addition, Subtraction, Multiplication, Division  
-   - Square, Cube, Custom Power (like x^y)  
-   - Square Root, Cube Root  
-   - Sin, Cos, Tan (and inverse: asin, acos, atan)  
-   - Log (base 10), Natural Log (ln), Antilog  
-   - Handle errors (like divide by zero)  
+Skills: variables, loops, conditionals, random, input validation, functions.
+Milestones
 
-   Small Challenge: Add memory – user can store last result and use it again (M+ button style).
+v1 (starter): computer picks 1–100, student guesses, give higher/lower hints, track attempts.
 
-2. **Number Guessing Game**  
-   Computer picks a random number. User guesses with hints.  
-   Use `import random` and `import time`.  
+v2 (required): add input validation, allow multiple rounds, show best score (fewest attempts).
 
-   Features:  
-   - User chooses how many rounds to play  
-   - Each round the range increases (Round 1: 1-50, Round 2: 1-100, etc.)  
-   - Time limit: starts 30 seconds, every next round subtract 5 seconds  
-   - Show "Too high" or "Too low" hints  
-   - Count total score  
+stretch: add difficulty levels (range changes), timer, and persistent high-score file.
+Starter hint: import random → secret = random.randint(1,100); loop until guessed.
+Quick tests: guess correctly in N attempts; invalid input doesn't crash.
 
-   Small Challenge: Save high score with player name (use a text file if you want extra practice).
+2. **Simple Calculator (CLI)**
 
-3. **Quiz Game**  
-   Ask multiple-choice questions. Count score at the end.  
+Skills: functions, exception handling, parsing strings, loops.
+Milestones
 
-   Features:  
-   - At least 10 questions stored in a list of dictionaries  
-   - Questions come in random order every time  
-   - 4 options for each question  
-   - Timer: 15 seconds per question  
-   - Show final score and correct answers  
+v1: support + - * / for two numbers via input prompts.
 
-   Small Challenge: Add different categories (like General Knowledge, Python, Pakistan History) – user chooses category first.
+v2: support chaining operations, handle divide-by-zero and bad input.
 
-4. **To-Do List**  
-   Simple task manager.  
+stretch: implement expression parsing (e.g., "3 + 4 * 2") or REPL mode.
+Starter hint: separate parse_input(), compute(a, op, b) functions. Use try/except.
+Quick tests: 3/0 handled gracefully; "abc" prompts again.
 
-   Features:  
-   - Add task  
-   - View all tasks with numbers  
-   - Mark task as completed  
-   - Delete task  
-   - Save tasks when program ends (use a text file – optional but good practice)  
+3. **To-Do List with File Save/Load**
 
-   Small Challenge: Add due date for each task and show warning if today’s date is past due.
+Skills: lists, file I/O (text or JSON), CRUD operations, functions.
+Milestones
 
-5. **Password Generator**  
-   Create strong random passwords.  
+v1: add/view/remove tasks stored in memory.
 
-   Features:  
-   - Ask length and what to include (uppercase, lowercase, numbers, symbols)  
-   - Generate password  
-   - Option to generate many at once  
-   - Check password strength (simple count of character types)  
+v2: save/load tasks to a JSON/text file so tasks survive program restart.
 
-   Small Challenge: Add option to exclude similar characters (like l and 1, O and 0).
+stretch: search/filter tasks, mark priority, and sort by date added.
+Starter hint: use json module: write tasks (list of dicts) to disk.
+Quick tests: add task → saved file contains task; restart program → tasks loaded.
 
-6. **BMI Calculator**  
-   Calculate Body Mass Index and give health advice.  
+4) **Contact Book (CSV or JSON)**
 
-   Features:  
-   - Ask weight (kg) and height (cm or meters)  
-   - Calculate BMI = weight / (height in m)²  
-   - Show category: Underweight, Normal, Overweight, Obese  
-   - Explain what BMI means in simple words  
+Skills: dictionaries, lists, file I/O, simple validation, search.
+Milestones
 
-   Small Challenge: Add ideal weight suggestion based on height.
+v1: basic add/view/search by name (in-memory).
 
-7. **Hangman Game**  
-   Classic word guessing game.  
+v2: persist using CSV/JSON; update/delete contact.
 
-   Features:  
-   - Random word from a list  
-   - Show dashes for letters  
-   - 6 wrong guesses allowed (draw simple hangman with print)  
-   - Accept only single letters  
+stretch: export/import VCF, or search fuzzy matches.
+Starter hint: store each contact as { "name":..., "phone":..., "email":... } and use list comprehension for search.
+Quick tests: add → find by name; remove → no longer found; file persists.
 
-   Small Challenge: Add categories (fruits, animals, countries) – user chooses first.
+5) Mad Libs / Story Generator
 
-8. **Tic-Tac-Toe (Player vs Computer)**  
-   Play against computer.  
+Skills: strings, concatenation, user input, functions, lists.
+Milestones
 
-   Features:  
-   - 3x3 board shown with numbers  
-   - Player is X, computer is O  
-   - Computer makes random valid move  
-   - Check for win or draw after each turn  
+v1: ask for a few words and print the story.
 
-   Small Challenge: Make computer smarter – block player if they are about to win.
+v2: support multiple story templates chosen by user.
 
-9. **Contact Book**  
-   Store and manage contacts.  
-
-   Features:  
-   - Add contact (name, phone, email)  
-   - Search by name  
-   - View all contacts  
-   - Delete contact  
-   - Save to file (optional)  
-
-   Small Challenge: Add edit contact option.
-
-10. **Simple Banking System**  
-    Basic bank account simulator.  
-
-    Features:  
-    - Create account with name and starting balance  
-    - Deposit money  
-    - Withdraw (check if enough balance)  
-    - View balance and transaction history  
-    - Simple PIN protection (ask PIN at start)  
-
-    Small Challenge: Add interest calculation every "month" (when user presses option).
-
-11. **Simple Encryption Tool**  
-    Encrypt and decrypt messages using Caesar cipher.  
-    Create two files: `crypto.py` (functions) and `main.py` (menu).  
-
-    Features:  
-    - Menu: Encrypt, Decrypt, Exit  
-    - Ask message and salt (shift number 1-25)  
-
-    You must create these two functions in `crypto.py`:
-    
-    ```python
-    def encrypt(message: str, salt: int) -> str:
-        # Shift each letter forward by salt (a → d if salt=3)
-        # Keep case, ignore non-letters
-        
-    def decrypt(message: str, salt: int) -> str:
-        # Shift backward
-    ```
-
-    Small Challenge: Add option to try all 25 shifts to break unknown cipher (brute force).
-
-13. **Countdown Timer**  
-    Timer that counts down and beeps at end.  
-
-    Features:  
-    - Ask minutes and seconds  
-    - Show time left updating every second  
-    - Print "Time's up!" at end  
-    - Use `time.sleep(1)`  
-
-    Small Challenge: Add pause and resume with key press.
-
-14. **Simple Chatbot**  
-    Bot that replies to user messages.  
-
-    Features:  
-    - Greet user  
-    - Reply to common questions (how are you, what is your name, time, date, etc.)  
-    - Funny replies for unknown messages  
-    - Exit command  
-
-    Small Challenge: Remember user name after first ask and use it in replies.
-
-15. **Student Grade System**  
-    Manage student records and marks.  
-
-    Features:  
-    - Add student (name, roll no, marks in 5 subjects)  
-    - View all students with percentage and grade  
-    - Search student by roll no  
-    - Show class average and highest scorer  
-
-    Small Challenge: Save data to file so it remains after program closes.
-_ _ _
+stretch: read templates from files, randomize templates, or add grammar checks.
+Starter hint: use placeholders like {noun} and .format(**answers).
+Quick tests: given inputs, output contains those words in expected places.
