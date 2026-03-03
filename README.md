@@ -291,67 +291,47 @@ Learn how to make functions so you can use same code again easily.
 
 ## Console Base Projects
 
-1. **Number Guessing Game**
-
-Skills: variables, loops, conditionals, random, input validation, functions.
-Milestones
-
-v1 (starter): computer picks 1–100, student guesses, give higher/lower hints, track attempts.
-
-v2 (required): add input validation, allow multiple rounds, show best score (fewest attempts).
-
-stretch: add difficulty levels (range changes), timer, and persistent high-score file.
-Starter hint: import random → secret = random.randint(1,100); loop until guessed.
-Quick tests: guess correctly in N attempts; invalid input doesn't crash.
+### 1. **Number Guessing Game**
+**Skills:** `variables`, `loops`, `conditionals`, `random`, `input validation`, `functions`.
+#### Milestones
+**v1 (starter):** computer picks 1–100, student guesses, give higher/lower hints, track attempts.
+**v2 (required):** add input validation, allow multiple rounds, show best score (fewest attempts).
+**stretch:** add difficulty levels (range changes), timer, and persistent high-score file.
+**Starter hint:** `import random` → `secret = random.randint(1,100);` loop until guessed.
+**Quick tests:** guess correctly in N attempts; invalid input doesn't crash.
 
 2. **Simple Calculator (CLI)**
-
-Skills: functions, exception handling, parsing strings, loops.
-Milestones
-
-v1: support + - * / for two numbers via input prompts.
-
-v2: support chaining operations, handle divide-by-zero and bad input.
-
-stretch: implement expression parsing (e.g., "3 + 4 * 2") or REPL mode.
-Starter hint: separate parse_input(), compute(a, op, b) functions. Use try/except.
+**Skills:** `functions`, `exception handling`, `parsing strings`, `loops`.
+#### Milestones
+**v1:** support `+ - * /` for two numbers via input prompts.
+**v2:** support chaining operations, handle divide-by-zero and bad input.
+**stretch:** implement expression parsing (e.g., "3 + 4 * 2") or REPL mode.
+**Starter hint:** separate `parse_input()`, `compute(a, op, b)` functions. Use try/except.
 Quick tests: 3/0 handled gracefully; "abc" prompts again.
 
-3. **To-Do List with File Save/Load**
-
-Skills: lists, file I/O (text or JSON), CRUD operations, functions.
-Milestones
-
-v1: add/view/remove tasks stored in memory.
-
-v2: save/load tasks to a JSON/text file so tasks survive program restart.
-
-stretch: search/filter tasks, mark priority, and sort by date added.
-Starter hint: use json module: write tasks (list of dicts) to disk.
+### 3. **To-Do List with File Save/Load**
+**Skills:** `lists`, `file I/O (text or JSON)`, `CRUD operations`, `functions`.
+#### Milestones
+**v1:** add/view/remove tasks stored in memory.
+**v2:** save/load tasks to a JSON/text file so tasks survive program restart.
+**stretch:** search/filter tasks, mark priority, and sort by date added.
+**Starter hint:** use json module: write tasks (list of dicts) to disk.
 Quick tests: add task → saved file contains task; restart program → tasks loaded.
 
-4) **Contact Book (CSV or JSON)**
-
-Skills: dictionaries, lists, file I/O, simple validation, search.
-Milestones
-
-v1: basic add/view/search by name (in-memory).
-
-v2: persist using CSV/JSON; update/delete contact.
-
-stretch: export/import VCF, or search fuzzy matches.
-Starter hint: store each contact as { "name":..., "phone":..., "email":... } and use list comprehension for search.
+### 4) **Contact Book (CSV or JSON)**
+**Skills:** dictionaries, lists, file I/O, simple validation, search.
+#### Milestones
+**v1:** basic add/view/search by name (in-memory).
+**v2:** persist using CSV/JSON; update/delete contact.
+**stretch:** export/import VCF, or search fuzzy matches.
+**Starter hint:** store each contact as `{ "name":..., "phone":..., "email":... }` and use list comprehension for search.
 Quick tests: add → find by name; remove → no longer found; file persists.
 
-5) Mad Libs / Story Generator
-
-Skills: strings, concatenation, user input, functions, lists.
-Milestones
-
-v1: ask for a few words and print the story.
-
-v2: support multiple story templates chosen by user.
-
-stretch: read templates from files, randomize templates, or add grammar checks.
-Starter hint: use placeholders like {noun} and .format(**answers).
+### 5) **Mad Libs / Story Generator**
+**Skills:** `strings`, `concatenation`, `user input`, `functions`, `lists`.
+#### Milestones
+**v1:** ask for a few words and print the story.
+**v2:** support multiple story templates chosen by user.
+**stretch:** read templates from files, randomize templates, or add grammar checks.
+**Starter hint:** use placeholders like {noun} and .format(**answers).
 Quick tests: given inputs, output contains those words in expected places.
