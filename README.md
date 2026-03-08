@@ -294,44 +294,98 @@ Learn how to make functions so you can use same code again easily.
 ### 1. Number Guessing Game
 **Skills:** `variables`, `loops`, `conditionals`, `random`, `input validation`, `functions`.
 #### Milestones
-**V1 (starter):** Computer picks 1–100, student guesses, give higher/lower hints, track attempts. <br>
-**V2 (required):** Add input validation, allow multiple rounds, show best score (fewest attempts). <br>
-**Stretch (self-learn):** Add difficulty levels (range changes), timer, and persistent high-score file. <br>
+- **V1 (starter):** Computer picks 1–100, student guesses, give higher/lower hints, track attempts. <br>
+- **V2 (required):** Add input validation, allow multiple rounds, show best score (fewest attempts). <br>
+- **Stretch (self-learn):** Add difficulty levels (range changes), timer, and persistent high-score file. <br>
 **Starter hint:** `import random` → `secret = random.randint(1,100);` loop until guessed. <br>
 **Quick tests:** guess correctly in N attempts; invalid input doesn't crash.
 
 ### 2. Simple Calculator (CLI)
 **Skills:** `functions`, `exception handling`, `parsing strings`, `loops`.
 #### Milestones
-**V1:** Support `+ - * /` for two numbers via input prompts. <br>
-**V2:** Support chaining operations, handle divide-by-zero and bad input. <br>
-**Stretch:** implement expression parsing (e.g., "3 + 4 * 2") or REPL mode. <br>
+- **V1:** Support `+ - * /` for two numbers via input prompts. <br>
+- **V2:** Support chaining operations, handle divide-by-zero and bad input. <br>
+- **Stretch:** implement expression parsing (e.g., "3 + 4 * 2") or REPL mode. <br>
 **Starter hint:** separate `parse_input()`, `compute(a, op, b)` functions. Use try/except. <br>
 **Quick tests:** 3/0 handled gracefully; "abc" prompts again.
 
 ### 3. **To-Do List with File Save/Load**
 **Skills:** `lists`, `file I/O (text or JSON)`, `CRUD operations`, `functions`.
 #### Milestones
-**V1:** add/view/remove tasks stored in memory. <br>
-**V2:** save/load tasks to a JSON/text file so tasks survive program restart. <br>
-**Stretch:** search/filter tasks, mark priority, and sort by date added. <br>
+- **V1:** add/view/remove tasks stored in memory. <br>
+- **V2:** save/load tasks to a JSON/text file so tasks survive program restart. <br>
+- **Stretch:** search/filter tasks, mark priority, and sort by date added. <br>
 **Starter hint:** use json module: write tasks (list of dicts) to disk. <br>
 **Quick tests:** add task → saved file contains task; restart program → tasks loaded.
 
 ### 4) **Contact Book (CSV or JSON)**
 **Skills:** dictionaries, lists, file I/O, simple validation, search.
 #### Milestones
-**V1:** basic add/view/search by name (in-memory). <br>
-**V2:** persist using CSV/JSON; update/delete contact. <br>
-**Stretch:** export/import VCF, or search fuzzy matches. <br>
+- **V1:** basic add/view/search by name (in-memory). <br>
+- **V2:** persist using CSV/JSON; update/delete contact. <br>
+- **Stretch:** export/import VCF, or search fuzzy matches. <br>
 **Starter hint:** store each contact as `{ "name":..., "phone":..., "email":... }` and use list comprehension for search. <br>
 **Quick tests:** add → find by name; remove → no longer found; file persists.
 
 ### 5) **Mad Libs / Story Generator**
 **Skills:** `strings`, `concatenation`, `user input`, `functions`, `lists`.
 #### Milestones
-**V1:** ask for a few words and print the story. <br>
-**V2:** support multiple story templates chosen by user. <br>
-**Stretch:** read templates from files, randomize templates, or add grammar checks. <br>
+- **V1:** ask for a few words and print the story. <br>
+- **V2:** support multiple story templates chosen by user. <br>
+- **Stretch:** read templates from files, randomize templates, or add grammar checks. <br>
 **Starter hint:** use placeholders like {noun} and .format(**answers). <br>
 **Quick tests:** given inputs, output contains those words in expected places.
+
+### 6) Dice Rolling Simulator + Probability Estimator
+**Skills:** `random`, `loops`, `counters`, `basic plotting (optional)`, `statistics`.
+#### Milestones
+- **V1:** Simulate rolling N dice and show outcomes counts. <br>
+- **V2:** Run many trials, show empirical probabilities and compare to expected. <br>
+- **stretch:** display histogram (matplotlib optional) and let user choose dice types. <br>
+**Starter hint:** collections.Counter is handy for counts. <br>
+**Quick tests:** 6-sided die → approx 1/6 frequency in many trials (students can see convergence).
+
+### 7) Expense Tracker (CLI)
+**Skills:** `lists/dicts`, `file I/O (CSV/JSON)`, `aggregation`, `date handling (optional)`.
+#### Milestones
+- **V1:** Add expense (amount + category) and show total per run. <br>
+- **v2:** Persist to CSV, show totals per category and monthly totals. <br>
+**Stretch:** Import bank CSV, filter by date ranges. <br>
+**Starter hint:** Represent each record as {"amount":float, "cat":str, "date": "YYYY-MM-DD"}; use csv or json. <br>
+**Quick tests:** Add entries → category totals correct.
+
+### 8) CLI Quiz System (question bank JSON)
+**Skills:** `JSON`, `loops`, `input validation`, `scoring`, `functions`.
+#### Milestones
+- **V1:** Ask 5 questions from an in-memory list; compute score. <br>
+- **V2:** Load questions from JSON, randomize order, show correct answers at end. <br>
+- **Stretch:** Timed questions, multiple users, and persistent user scores. <br>
+**Starter hint:** JSON schema: {"q":"...", "options":["a","b"], "answer":0}. <br>
+**Quick tests:** Scoring matches expected answers; JSON loads properly.
+
+### 9) FizzBuzz Variants & Pattern Printing (algorithmic thinking)
+**Skills:** `loops`, `conditionals`, `modulo arithmetic`, `nested loops for patterns`.
+#### Milestones
+- **V1:** Classic FizzBuzz (print 1..N with rules). <br>
+- **V2:** Extend rules (e.g., multiple keyword mapping), and write unit tests. <br>
+- **Stretch: Generate ASCII shapes (pyramids) and analyze complexity (O(n), O(n^2)). <br>
+**Starter hint: Use modular checks in order (if i % 15 == 0 before %3/%5). <br>
+**Quick tests: Known sequences for first 20 values.
+
+### 10) Word Frequency Counter (file input)
+**Skills:** `file I/O`, `string processing`, `dicts`, `sorting`.
+#### Milestones
+- **V1: Read a text file and output top-10 words. <br>
+- **V2: Ignore stopwords/punctuation, case-insensitive, show counts. <br>
+- **Stretch: Build concordance or show sentence locations for top words. <br>
+**Starter hint: Normalize text (.lower()), remove punctuation (str.translate) and use Counter. <br>
+**Quick tests: For short sample file, expected top words & counts.
+
+### 11) Simple Bank Account Simulator (state and simple OOP optional)
+**Skills:** `functions`, `state management`, `optional classes`, `input validation`.
+#### Milestones
+- **V1:** Simulate deposit/withdrawal and show balance (functional style). <br>
+- **V2:** Add transaction history (list) and persist to JSON. <br>
+- **Stretch:** Convert to Account class, support multiple accounts and transfers. <br>
+**Starter hint:** Start with procedural approach before introducing class Account: as a stretch. <br>
+**Quick tests:** Deposits and withdrawals update balance; cannot withdraw over balance.
