@@ -1,7 +1,7 @@
 # Programming Fundamentals | Python
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Status](https://img.shields.io/badge/status-Ready--to--Learn-green)
+![Status](https://img.shields.io/badge/status-Ready--to--Learn-purple)
 
 This is a simple step-by-step Python learning hub for complete beginners. You start from zero and slowly become good at coding. We have 7 levels. Each level teaches one important topic with easy practice questions. Practice is the only way to learn coding well – do every question yourself. After the levels, try the 20 fun console projects to use everything you learned.
 
@@ -12,20 +12,20 @@ This is a simple step-by-step Python learning hub for complete beginners. You st
 ---
 
 ## Table of Contents
-- [Level 1: Python Basics - Variables & Input/Output](#level-1-python-basics---variables--inputoutput)
-- [Level 2: Working with Text - Strings](#level-2-working-with-text---strings)
-- [Level 3: Making Decisions - Conditionals](#level-3-making-decisions---conditionals)
-- [Level 4: Repeating Tasks - Loops](#level-4-repeating-tasks---loops)
-- [Level 5: Organizing Data - Lists & Tuples](#level-5-organizing-data---lists--tuples)
-- [Level 6: Advanced Collections - Sets & Dictionaries](#level-6-advanced-collections---sets--dictionaries)
-- [Level 7: Reusable Code - Functions](#level-7-reusable-code---functions)
-- [20 Console Projects](#20-console-projects)
+- [Set 1: Variables & Input/Output](#set-1-variables--inputoutput)
+- [Set 2: Strings](#set-2-strings)
+- [Set 3: If/Elif/Else - Conditionals](#set-3-ifelifelse---conditionals)
+- [Set 4: Loops](#set-4-loops)
+- [Set 5: Lists & Tuples](#set-5-lists--tuples)
+- [Set 6: Sets & Dictionaries](#set-6-sets--dictionaries)
+- [Set 7: Functions](#set-7-functions)
+- [Projects](#projects)
 
 ---
 
-### Level 1: Python Basics - Variables & Input/Output
+### Set 1: Variables & Input/Output
 
-**Why this level?**  
+**Purpose**  
 Learn how to store data in variables, take input from user, and print results. This is the first step of every Python program.
 
 1. **Swap Two Numbers**  
@@ -79,9 +79,9 @@ Learn how to store data in variables, take input from user, and print results. T
 
 ---
 
-### Level 2: Working with Text - Strings
+### Set 2: Strings
 
-**Why this level?**  
+**Purpose**  
 Learn how to work with words and sentences. Almost every program needs text.
 
 1. **String Length Counter**  
@@ -117,9 +117,9 @@ Learn how to work with words and sentences. Almost every program needs text.
 
 ---
 
-### Level 3: Making Decisions - Conditionals
+### Set 3: If/Elif/Else - Conditionals
 
-**Why this level?**  
+**Purpose**  
 Learn how to make your program choose different actions using if/elif/else.
 
 1. **Even or Odd**  
@@ -173,9 +173,9 @@ Learn how to make your program choose different actions using if/elif/else.
 
 ---
 
-### Level 4: Repeating Tasks - Loops
+### Set 4: Loops
 
-**Why this level?**  
+**Purpose**  
 Learn how to repeat work easily using while and for loops.
 
 1. **Print 1 to 10**  
@@ -214,9 +214,9 @@ Learn how to repeat work easily using while and for loops.
 
 ---
 
-### Level 5: Organizing Data - Lists & Tuples
+### Set 5: Lists & Tuples
 
-**Why this level?**  
+**Purpose**  
 Learn how to store many items in lists (can change) and tuples (cannot change).
 
 1. **Create Fruit List**  
@@ -239,9 +239,9 @@ Learn how to store many items in lists (can change) and tuples (cannot change).
 
 ---
 
-### Level 6: Advanced Collections - Sets & Dictionaries
+### Set 6: Sets & Dictionaries
 
-**Why this level?**  
+**Purpose**  
 Learn sets (unique items) and dictionaries (key-value pairs).
 
 1. **Create and Add to Set**  
@@ -264,7 +264,7 @@ Learn sets (unique items) and dictionaries (key-value pairs).
 
 ---
 
-### Level 7: Reusable Code - Functions
+### Set 7: Functions
 
 **Why this level?**  
 Learn how to make functions so you can use same code again easily.
@@ -289,7 +289,7 @@ Learn how to make functions so you can use same code again easily.
 
 ---
 
-## Console Base Projects
+## Projects
 
 ### 1. **Number Guessing Game**
 **Skills:** `variables`, `loops`, `conditionals`, `random`, `input validation`, `functions`.
