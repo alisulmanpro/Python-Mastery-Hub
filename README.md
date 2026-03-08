@@ -341,8 +341,8 @@ Learn how to make functions so you can use same code again easily.
 #### Milestones
 - **V1:** Simulate rolling N dice and show outcomes counts. <br>
 - **V2:** Run many trials, show empirical probabilities and compare to expected. <br>
-- **stretch:** display histogram (matplotlib optional) and let user choose dice types. <br>
-**Starter hint:** collections.Counter is handy for counts. <br>
+- **Stretch:** Display histogram (matplotlib optional) and let user choose dice types. <br>
+**Starter hint:** Collections.Counter is handy for counts. <br>
 **Quick tests:** 6-sided die → approx 1/6 frequency in many trials (students can see convergence).
 
 ### 7) Expense Tracker (CLI)
@@ -350,7 +350,7 @@ Learn how to make functions so you can use same code again easily.
 #### Milestones
 - **V1:** Add expense (amount + category) and show total per run. <br>
 - **v2:** Persist to CSV, show totals per category and monthly totals. <br>
-**Stretch:** Import bank CSV, filter by date ranges. <br>
+- **Stretch:** Import bank CSV, filter by date ranges. <br>
 **Starter hint:** Represent each record as {"amount":float, "cat":str, "date": "YYYY-MM-DD"}; use csv or json. <br>
 **Quick tests:** Add entries → category totals correct.
 
@@ -368,18 +368,18 @@ Learn how to make functions so you can use same code again easily.
 #### Milestones
 - **V1:** Classic FizzBuzz (print 1..N with rules). <br>
 - **V2:** Extend rules (e.g., multiple keyword mapping), and write unit tests. <br>
-- **Stretch: Generate ASCII shapes (pyramids) and analyze complexity (O(n), O(n^2)). <br>
-**Starter hint: Use modular checks in order (if i % 15 == 0 before %3/%5). <br>
-**Quick tests: Known sequences for first 20 values.
+- **Stretch:** Generate ASCII shapes (pyramids) and analyze complexity (O(n), O(n^2)). <br>
+**Starter hint:** Use modular checks in order (if i % 15 == 0 before %3/%5). <br>
+**Quick tests:** Known sequences for first 20 values.
 
 ### 10) Word Frequency Counter (file input)
 **Skills:** `file I/O`, `string processing`, `dicts`, `sorting`.
 #### Milestones
-- **V1: Read a text file and output top-10 words. <br>
-- **V2: Ignore stopwords/punctuation, case-insensitive, show counts. <br>
-- **Stretch: Build concordance or show sentence locations for top words. <br>
-**Starter hint: Normalize text (.lower()), remove punctuation (str.translate) and use Counter. <br>
-**Quick tests: For short sample file, expected top words & counts.
+- **V1:** Read a text file and output top-10 words. <br>
+- **V2:** Ignore stopwords/punctuation, case-insensitive, show counts. <br>
+- **Stretch:** Build concordance or show sentence locations for top words. <br>
+**Starter hint:** Normalize text (.lower()), remove punctuation (str.translate) and use Counter. <br>
+**Quick tests:** For short sample file, expected top words & counts.
 
 ### 11) Simple Bank Account Simulator (state and simple OOP optional)
 **Skills:** `functions`, `state management`, `optional classes`, `input validation`.
