@@ -1,4 +1,4 @@
-# Programming Fundamentals | Python
+# Python
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Status](https://img.shields.io/badge/status-Ready--to--Learn-darkblue)
@@ -289,6 +289,93 @@ Learn how to make functions so you can use same code again easily.
 
 ---
 
+### Set 8: Object Oriented Programming - Classes & Objects
+
+**Purpose**  
+Learn the basics of OOP. Create your own classes, objects, and attributes. This is the foundation of modern programming.
+
+1. **Create a Simple Class**  
+   Define a class named Dog with no attributes or methods. Create an object called my_dog. Print the type of my_dog.
+   
+   ```markdown
+   Example: print(type(my_dog)) → Output: <class '__main__.Dog'>
+   ```
+
+2. **Add Attributes to Object**  
+   Using the same Dog class, create my_dog and add two attributes: name = "Buddy" and age = 5. Print both attributes.
+   
+   ```markdown
+   Example: print(my_dog.name) and print(my_dog.age) → Output: Buddy 5
+   ```
+
+3. **Multiple Objects**  
+   Create two objects of Dog class: dog1 and dog2. Give different name and age to each. Print names of both.
+
+4. **Class Attribute**  
+   Add a class attribute species = "Canine" to Dog class (outside __init__). Create any object and print dog.species. It should work for all objects.
+
+5. **Modify Attribute**  
+   Create a class Car. Create car1 object. Add color = "Blue". Print color, then change it to "Red" and print again.
+
+6. **Empty Class with Pass**  
+   Create a class Student using pass keyword. Create object, add name and roll_no attributes manually. Print both.
+
+---
+
+### Set 9: Constructors and Methods
+
+**Purpose**  
+Learn how to use __init__ constructor and define methods inside classes. Make your objects more powerful.
+
+1. **Constructor with __init__**  
+   Create a class Person with __init__(self, name, age). Create object p1 and print name and age.
+   
+   ```markdown
+   Example: p1 = Person("Ali", 25)
+print(p1.name) → Output: Ali
+
+2. **Method Inside Class**  
+   In Person class, add a method greet(self) that prints "Hello, my name is [name]". Call the method on p1.
+
+3. **Method with Parameters**  
+   Add a method birthday(self) in Person that increases age by 1. Call it and print new age.
+
+4. **Multiple Methods**  
+   Create a class Calculator with __init__ and two methods: add(self, a, b) and multiply(self, a, b). Create object and call both.
+
+5. **String Representation**  
+   In Dog class (from previous), add __str__(self) method that returns "Dog named [name], age [age]". Print the object.
+
+6. **Bank Account Example**  
+   Create class BankAccount with __init__(self, balance=0), deposit(self, amount) and withdraw(self, amount). Test deposit and withdraw.
+
+---
+
+### Set 10: Inheritance and Polymorphism
+
+**Purpose**  
+Learn inheritance, method overriding, and basic polymorphism. Reuse code like a pro.
+
+1. **Simple Inheritance**  
+   Create class Animal with eat(self) method. Create class Dog(Animal). Create dog object and call eat().
+
+2. **Method Overriding**  
+   In Dog class, override eat(self) to print "Dog is eating bones". Create dog object and call eat().
+
+3. **Using super()**  
+   Add __init__ in Animal (name). In Dog use super() to set name. Add bark(self) method. Test both.
+
+4. **Multiple Child Classes**  
+   Create Cat(Animal) and Dog(Animal). Give each their own sound method. Create objects and call sound().
+
+5. **Polymorphism Example**  
+   Create a function make_sound(animal) that calls animal.sound(). Pass Dog and Cat objects to it.
+
+6. **Real World Example**  
+   Create class Vehicle with move(self). Create Car(Vehicle) and Bike(Vehicle) with different move messages. Test both.
+
+---
+
 ## Projects
 
 ### 1. Number Guessing Game
@@ -389,3 +476,39 @@ Learn how to make functions so you can use same code again easily.
 - **Stretch:** Convert to Account class, support multiple accounts and transfers. <br>
 **Starter hint:** Start with procedural approach before introducing class Account: as a stretch. <br>
 **Quick tests:** Deposits and withdrawals update balance; cannot withdraw over balance.
+
+  ### 12) Shape Area Calculator (Polymorphism)
+**Skills:** `inheritance`, `polymorphism`, `methods`, `math module`.
+#### Milestones
+- **V1:** Circle and Rectangle classes, each with calculate_area() method. <br>
+- **V2:** Base Shape class + list of shapes; loop to show and sum all areas. <br>
+- **Stretch:** Add Triangle class; menu to add any shape and display total area. <br>
+**Starter hint:** Override calculate_area() in each child class. Store shapes in a list and use polymorphism. <br>
+**Quick tests:** Circle (πr²), Rectangle (length×width), Triangle (0.5×base×height) calculate correctly.
+
+  ### 13) Employee Payroll System (Inheritance & Polymorphism)
+**Skills:** `classes`, `inheritance`, `polymorphism`, `dictionaries`.
+#### Milestones
+- **V1:** Employee base class with name, base_salary and get_info() method. <br>
+- **V2:** Manager and Developer classes inherit and override get_salary() (add bonus). <br>
+- **Stretch:** Company class to manage list of employees, calculate total payroll and display all. <br>
+**Starter hint:** Use super().__init__() in child classes. Override get_salary() for different types. <br>
+**Quick tests:** Different employee types show correct salary; total payroll sums all employees correctly.
+
+  ### 14) Zoo Animal Management System (Inheritance & Polymorphism)
+**Skills:** `classes`, `inheritance`, `polymorphism`, `lists`, `JSON`.
+#### Milestones
+- **V1:** Animal base class with name, species and make_sound() method. Create Lion and Elephant subclasses overriding the sound. <br>
+- **V2:** Zoo class to add animals, display all and call sounds using polymorphism. <br>
+- **Stretch:** Add feed() method (different food per animal type) and save entire zoo to JSON. <br>
+**Starter hint:** Use super().__init__() in child classes. Keep animals in a list and loop to demonstrate polymorphism. <br>
+**Quick tests:** Each animal makes its correct sound; Zoo can list and feed all animals without errors.
+
+  ### 15) Pizza Ordering System (Composition & Polymorphism)
+**Skills:** `classes`, `composition`, `polymorphism`, `input validation`.
+#### Milestones
+- **V1:** Pizza base class with size, toppings list and calculate_price() method. <br>
+- **V2:** Order class (composition) to hold multiple pizzas, show cart and total price. <br>
+- **Stretch:** VegPizza and NonVegPizza subclasses with extra charges; full menu + save order to JSON. <br>
+**Starter hint:** Order class should have a list of Pizza objects. Override calculate_price() in subclasses for extra cost. <br>
+**Quick tests:** Total price updates correctly with different pizza types; cannot add pizza without size or toppings.
