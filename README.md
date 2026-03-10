@@ -477,7 +477,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Start with procedural approach before introducing class Account: as a stretch. <br>
 **Quick tests:** Deposits and withdrawals update balance; cannot withdraw over balance.
 
-  ### 12) Shape Area Calculator (Polymorphism)
+### 12) Shape Area Calculator (Polymorphism)
 **Skills:** `inheritance`, `polymorphism`, `methods`, `math module`.
 #### Milestones
 - **V1:** Circle and Rectangle classes, each with calculate_area() method. <br>
@@ -486,7 +486,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Override calculate_area() in each child class. Store shapes in a list and use polymorphism. <br>
 **Quick tests:** Circle (πr²), Rectangle (length×width), Triangle (0.5×base×height) calculate correctly.
 
-  ### 13) Employee Payroll System (Inheritance & Polymorphism)
+### 13) Employee Payroll System (Inheritance & Polymorphism)
 **Skills:** `classes`, `inheritance`, `polymorphism`, `dictionaries`.
 #### Milestones
 - **V1:** Employee base class with name, base_salary and get_info() method. <br>
@@ -495,7 +495,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Use super().__init__() in child classes. Override get_salary() for different types. <br>
 **Quick tests:** Different employee types show correct salary; total payroll sums all employees correctly.
 
-  ### 14) Zoo Animal Management System (Inheritance & Polymorphism)
+### 14) Zoo Animal Management System (Inheritance & Polymorphism)
 **Skills:** `classes`, `inheritance`, `polymorphism`, `lists`, `JSON`.
 #### Milestones
 - **V1:** Animal base class with name, species and make_sound() method. Create Lion and Elephant subclasses overriding the sound. <br>
@@ -504,7 +504,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Use super().__init__() in child classes. Keep animals in a list and loop to demonstrate polymorphism. <br>
 **Quick tests:** Each animal makes its correct sound; Zoo can list and feed all animals without errors.
 
-  ### 15) Pizza Ordering System (Composition & Polymorphism)
+### 15) Pizza Ordering System (Composition & Polymorphism)
 **Skills:** `classes`, `composition`, `polymorphism`, `input validation`.
 #### Milestones
 - **V1:** Pizza base class with size, toppings list and calculate_price() method. <br>
@@ -525,7 +525,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Use one custom User model or extend AbstractUser. Store projects & posts in separate models. <br>
 **Quick tests:** Contact form sends real email; projects and blog posts display correctly; responsive design looks good on mobile.
 
-  ### 2) Event Registration System
+### 2) Event Registration System
 **Skills:** `models`, `forms`, `email`, `authentication`, `date fields`, `permissions`.
 #### Milestones
 - **V1:** Event model (title, date, venue, capacity) + list/detail views + simple registration form. <br>
@@ -534,7 +534,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Use DateTimeField + custom clean() in form to check capacity. Send email on successful registration. <br>
 **Quick tests:** Spots decrease on registration; cannot register when full; user sees only their events.
 
-  ### 3) Job Board Portal
+### 3) Job Board Portal
 **Skills:** `models`, `forms`, `authentication`, `pagination`, `filtering`, `file upload`.
 #### Milestones
 - **V1:** Job model (title, company, description, salary range) + list/detail + search by keyword. <br>
@@ -543,7 +543,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Use groups or custom user profile model to separate Employer/Candidate. Use FileField for resumes. <br>
 **Quick tests:** Only employers post jobs; candidates see application history; filters narrow results accurately.
 
-  ### 4) Book Review & Reading Tracker Platform
+### 4) Book Review & Reading Tracker Platform
 **Skills:** `models`, `ManyToMany`, `forms`, `authentication`, `ratings`, `image upload`.
 #### Milestones
 - **V1:** Book model (title, author, cover image, genre) + list/detail + simple review form. <br>
@@ -552,7 +552,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Starter hint:** Use ManyToManyField for user-book relationships with through model for status & rating. <br>
 **Quick tests:** Ratings update average correctly; user sees personalized lists; cover images load properly.
 
-  ### 5) Freelance Service Marketplace (Mini Upwork-style)
+### 5) Freelance Service Marketplace (Mini Upwork-style)
 **Skills:** `models`, `forms`, `authentication`, `file upload`, `search`, `messages/notifications`.
 #### Milestones
 - **V1:** Service/Gig model (title, description, price, category) posted by freelancers + browse/list view. <br>
