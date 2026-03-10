@@ -19,7 +19,7 @@ This is a simple step-by-step Python learning hub for complete beginners. You st
 - [Set 5: Lists & Tuples](#set-5-lists--tuples)
 - [Set 6: Sets & Dictionaries](#set-6-sets--dictionaries)
 - [Set 7: Functions](#set-7-functions)
-- [Projects](#projects)
+- [Python Projects](#python-projects)
 
 ---
 
@@ -376,7 +376,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 
 ---
 
-## Projects
+# Python Projects
 
 ### 1. Number Guessing Game
 **Skills:** `variables`, `loops`, `conditionals`, `random`, `input validation`, `functions`.
@@ -406,7 +406,7 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 **Quick tests:** add task → saved file contains task; restart program → tasks loaded.
 
 ### 4) **Contact Book (CSV or JSON)**
-**Skills:** dictionaries, lists, file I/O, simple validation, search.
+**Skills:** `dictionaries`, `lists`, `file I/O`, `simple validation`, `search`.
 #### Milestones
 - **V1:** basic add/view/search by name (in-memory). <br>
 - **V2:** persist using CSV/JSON; update/delete contact. <br>
@@ -512,3 +512,51 @@ Learn inheritance, method overriding, and basic polymorphism. Reuse code like a 
 - **Stretch:** VegPizza and NonVegPizza subclasses with extra charges; full menu + save order to JSON. <br>
 **Starter hint:** Order class should have a list of Pizza objects. Override calculate_price() in subclasses for extra cost. <br>
 **Quick tests:** Total price updates correctly with different pizza types; cannot add pizza without size or toppings.
+
+
+# Django Projects
+
+### 1) Personal Portfolio Website with Blog & Project Showcase
+**Skills:** `models`, `templates`, `forms`, `authentication`, `static/media files`, `admin customization`.
+#### Milestones
+- **V1:** Static-like homepage with About, Skills, Projects sections (projects from database). <br>
+- **V2:** Add Blog app (Post model with categories/tags), contact form that sends email, visitor counter. <br>
+- **Stretch:** Dark/light mode toggle, project detail page with screenshots/gallery, admin dashboard stats (views, messages). <br>
+**Starter hint:** Use one custom User model or extend AbstractUser. Store projects & posts in separate models. <br>
+**Quick tests:** Contact form sends real email; projects and blog posts display correctly; responsive design looks good on mobile.
+
+  ### 2) Event Registration System
+**Skills:** `models`, `forms`, `email`, `authentication`, `date fields`, `permissions`.
+#### Milestones
+- **V1:** Event model (title, date, venue, capacity) + list/detail views + simple registration form. <br>
+- **V2:** User login required to register, track "My Registrations", show remaining spots. <br>
+- **Stretch:** Waitlist when full, QR code generation for tickets, organizer dashboard, email reminders. <br>
+**Starter hint:** Use DateTimeField + custom clean() in form to check capacity. Send email on successful registration. <br>
+**Quick tests:** Spots decrease on registration; cannot register when full; user sees only their events.
+
+  ### 3) Job Board Portal
+**Skills:** `models`, `forms`, `authentication`, `pagination`, `filtering`, `file upload`.
+#### Milestones
+- **V1:** Job model (title, company, description, salary range) + list/detail + search by keyword. <br>
+- **V2:** Employer role can post jobs, candidate role can apply with profile + resume upload. <br>
+- **Stretch:** Advanced filters (location, experience, job type), application status tracking, email notifications. <br>
+**Starter hint:** Use groups or custom user profile model to separate Employer/Candidate. Use FileField for resumes. <br>
+**Quick tests:** Only employers post jobs; candidates see application history; filters narrow results accurately.
+
+  ### 4) Book Review & Reading Tracker Platform
+**Skills:** `models`, `ManyToMany`, `forms`, `authentication`, `ratings`, `image upload`.
+#### Milestones
+- **V1:** Book model (title, author, cover image, genre) + list/detail + simple review form. <br>
+- **V2:** User can add books to "Reading List" / "Read" / "Wishlist", rate & review books (1–5 stars). <br>
+- **Stretch:** Average rating display, recommendation engine (based on genre/ratings), progress tracker (pages read). <br>
+**Starter hint:** Use ManyToManyField for user-book relationships with through model for status & rating. <br>
+**Quick tests:** Ratings update average correctly; user sees personalized lists; cover images load properly.
+
+  ### 5) Freelance Service Marketplace (Mini Upwork-style)
+**Skills:** `models`, `forms`, `authentication`, `file upload`, `search`, `messages/notifications`.
+#### Milestones
+- **V1:** Service/Gig model (title, description, price, category) posted by freelancers + browse/list view. <br>
+- **V2:** Clients can place orders (with requirements file upload), freelancers see their orders. <br>
+- **Stretch:** Review/rating system after completion, messaging between client & freelancer, categories + search/filter. <br>
+**Starter hint:** Separate Freelancer and Client profiles. Use Order model with ForeignKeys to Gig and User. <br>
+**Quick tests:** Orders link correct gig & user; only logged-in users can order/message; ratings visible on profile/gig.
