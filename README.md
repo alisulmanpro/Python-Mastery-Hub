@@ -1,7 +1,8 @@
-# Python
+# Python Mastery Hub
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Status](https://img.shields.io/badge/status-Ready--to--Learn-darkblue)
+![Status](https://img.shields.io/badge/practice-Hands--on--Practice-blue)
 
 This is a simple step-by-step Python learning hub for complete beginners. You start from zero and slowly become good at coding. We have 7 levels. Each level teaches one important topic with easy practice questions. Practice is the only way to learn coding well – do every question yourself. After the levels, try the 20 fun console projects to use everything you learned.
 
@@ -19,6 +20,9 @@ This is a simple step-by-step Python learning hub for complete beginners. You st
 - [Set 5: Lists & Tuples](#set-5-lists--tuples)
 - [Set 6: Sets & Dictionaries](#set-6-sets--dictionaries)
 - [Set 7: Functions](#set-7-functions)
+- [Set 8: Object Oriented Programming - Classes & Objects](#set-8-object-oriented-programming---classes--Objects)
+- [Set 9: Constructors and Methods](#set-9-constructors-and-methods)
+- [Set 10: Inheritance and Polymorphism](#set-10-inheritance-and-polymorphism)
 - [Python Projects](#python-projects)
 
 ---
